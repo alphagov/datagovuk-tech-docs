@@ -1,4 +1,4 @@
-# Data.gov.uk technical documentation
+# data.gov.uk technical documentation
 
 Introduction text.
 
