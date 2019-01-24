@@ -1,4 +1,8 @@
-# Technical Documentation
+# Data.gov.uk technical documentation
+
+Data.gov.uk helps people find and use open government data. This documentation is for organisations publishing on data.gov.uk and users who want to extract data from data.gov.uk using the API. 
+
+The documentation is published at https://datagovuk-tech-docs.cloudapps.digital/.
 
 ## Getting started
 
