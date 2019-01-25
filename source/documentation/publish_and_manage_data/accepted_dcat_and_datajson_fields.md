@@ -40,7 +40,7 @@ You should use the following fields for datasets not documentation.
 | title | dct:title | Spend transactions, Dec 2018 |
 | description | dct:description | | Not currently displayed on data.gov.uk |
 | format | dcat:mediaType | `text/csv` | Currently recognised mime-types are listed here: [DGU formats](https://github.com/datagovuk/ckanext-dgu/blob/master/ckanext/dgu/lib/formats.py#L86) |
-| conformsTo | dct:conformsTo | `http://schemas.opendata.esd.org.uk/publictoilets/PublicToilets.json?v=0.41` | URL of the machine-readable schema that the dataset conforms to. Refer to the Local Authority data schemas](xxx). |
+| conformsTo | dct:conformsTo | `http://schemas.opendata.esd.org.uk/publictoilets/PublicToilets.json?v=0.41` | URL of the machine-readable schema that the dataset conforms to. Refer to the Local Authority data schemas](local_authority_data_schemas). |
 | temporal | dct:temporal | `2000-01-15/2000-01-20` `2010-01/2010-03` `2010/2010` | The date period that the dataset applies to. Formatted as 2 ISO 8601 dates (or datetimes) separated by a slash. If the period in question is a whole year or whole month, put the same value for start and finish, for example `2010/2010` or `2010-06/2010-06`. Data.gov.uk only stores the first date of the pair in the "date" field, and if the 2 dates are different, it adds the range into the "name" field. |
 | spatial |  dct:spatial | `{\"type\":\"Polygon\",\"coordinates\":[[[2.072, 49.943],[2.072, 55.816], [-6.236, 55.816], [-6.236, 49.943], [2.072, 49.943]]]}` | The geographic location that the dataset applies to. If not specified, then it is inherited from the dataset if not its organisation. Formatted as a GeoJSON point, bounding box or polygon. |
 | identifier | (equivalent to RDF object's URI or) dct:identifier | `https://data.some.org/catalog/datasets/9df8df51-63db-37a8-e044-0003ba9b0d98/resource/4252f71c-4f2f-4e37-ab4e-b58b4ac255bb` | Optional. Use it to help CKAN keep track of a distribution that has changing properties (for example, a new URL or format), or for DCAT compliance. Must be globally unique - not just unique to the organisation. A URI is highly recommended (ideally one that returns a web page about the distribution). |
@@ -80,11 +80,9 @@ The data.json file should have ASCII or UTF-8 character encoding (as per the JSO
 
 ## Namespaces
 
-***NEED TITLES FOR BELOW TABLE***
-
 <div style="height:1px;font-size:1px;">&nbsp;</div>
 
-|TITLE 1|TITLE 2|
+|Format 1|Namespace|
 |:---|:---|
 | dcat | http://www.w3.org/ns/dcat# |
 | dct | http://purl.org/dc/terms/ |
