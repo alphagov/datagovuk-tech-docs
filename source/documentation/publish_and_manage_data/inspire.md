@@ -28,14 +28,14 @@ Department for Environment, Food & Rural Affairs (Defra) provides guidance and a
 
 <div style="height:1px;font-size:1px;">&nbsp;</div>
 
-Local authorities should make use of the detailed guidance from the Local Government Association which lists datasets likely to be held by LAs covered by INSPIRE: [A Guide to INSPIRE compliance in local government](http://www.local.gov.uk/c/document_library/get_file?uuid=ba19b779-eb8d-404c-af07-25ecd921aed9)
+Local authorities should make use of the detailed guidance from the Local Government Association which lists datasets likely to be held by LAs covered by INSPIRE: [A Guide to INSPIRE compliance in local government](http://www.local.gov.uk/c/document_library/get_file?uuid=ba19b779-eb8d-404c-af07-25ecd921aed9).
 
 ## Publishing INSPIRE/Location data
 
 The INSPIRE legislation requires most geo-spatial data to be published according to certain standards, and be registered on data.gov.uk in a certain way. The records must be published in [GEMINI format](xxx) and be harvested. Common ways to do this are:
 
-* Metadata records
-* Storing data in a GIS (Geographic Information System)
+* metadata records
+* storing data in a GIS (Geographic Information System)
 
 ### Metadata records
 

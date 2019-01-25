@@ -80,6 +80,14 @@ The data.json file should have ASCII or UTF-8 character encoding (as per the JSO
 
 ## Namespaces
 
+***NEED TITLES FOR BELOW TABLE***
+
+<div style="height:1px;font-size:1px;">&nbsp;</div>
+
+|TITLE 1|TITLE 2|
+|:---|:---|
 | dcat | http://www.w3.org/ns/dcat# |
 | dct | http://purl.org/dc/terms/ |
 | rdfs | http://www.w3.org/2000/01/rdf-schema# |
+
+<div style="height:1px;font-size:1px;">&nbsp;</div>

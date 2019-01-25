@@ -31,7 +31,7 @@ An organisation can have multiple editors and admins.
 You can add additional editors or admins to an organisation via the [Data Publisher](https://ckan.publishing.service.gov.uk/). You must have an admin account for that organisation.
 
 1. Go to the **Publishers** tab.
-1. Go to the name of the organisation, then **Manage** > **Members** > **Add member**
+1. Go to the name of the organisation, then **Manage** > **Members** > **Add member**.
 1. Add the email address of the user you want to add.
 1. Choose whether you want the user to be an editor or an admin.
 1. Select **Add Member** and add the user’s government email address.
