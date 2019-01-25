@@ -1,12 +1,5 @@
 # INSPIRE
 
-* Home page: <http://data.gov.uk/location>
-* Guidance and tools: <http://data.gov.uk/location/guidance_and_tools>
-* Help: [Location/INSPIRE Helpdesk](mailto:UK-INSPIRE-Help@defra.gsi.gov.uk) (provided by Defra)
-* [INSPIRE/Location records on data.gov.uk](http://data.gov.uk/data/search?UKLP=True)
-
-## INSPIRE scope
-
 INSPIRE places legal obligations on public bodies to publish particular datasets. This requires most UK public bodies (central government, local authorities and all other public authorities as defined in the [Environmental Information Regulations 2004](http://www.legislation.gov.uk/uksi/2004/3391/contents/made)) to publish certain datasets.
 
 Relevant datasets are those which meet all these criteria:
@@ -32,7 +25,7 @@ Local authorities should make use of the detailed guidance from the Local Govern
 
 ## Publishing INSPIRE/Location data
 
-The INSPIRE legislation requires most geo-spatial data to be published according to certain standards, and be registered on data.gov.uk in a certain way. The records must be published in [GEMINI format](xxx) and be harvested. Common ways to do this are:
+The INSPIRE legislation requires most geo-spatial data to be published according to certain standards, and be registered on data.gov.uk in a certain way. The records must be published in [GEMINI format](gemini_and_iso_19139_metadata/) and be [harvested]((harvest_data/). Common ways to do this are:
 
 * metadata records
 * storing data in a GIS (Geographic Information System)
@@ -47,6 +40,6 @@ You can choose to store data in a GIS (Geographic Information System). This is c
 
 ## Harvesting metadata records
 
-Getting your metadata records into data.gov.uk is done by [setting up a data.gov.uk 'harvester'](xxx). You should run the harvester regularly, to ensure that data.gov.uk stays in sync when the publisher updates the records.
+Getting your metadata records into data.gov.uk is done by [setting up a data.gov.uk 'harvester'](harvest_data/). You should run the harvester regularly, to ensure that data.gov.uk stays in sync when the publisher updates the records.
 
 Occasionally publishers have made the mistake of using an existing record as a template and simply using a text editor to change the key fields. The main problem with this is that you need to generate a new `gmd:fileIdentifier`, or data.gov.uk will harvest it and overwrite the record that was the template! To generate a new UUID (universally unique identifier) for this field, just visit <https://www.uuidgenerator.net/>.
