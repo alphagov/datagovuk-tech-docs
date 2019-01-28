@@ -1,55 +1,10 @@
 # Harvest or add data
 
-Test
+You can publish datasets to data.gov.uk by:
 
-## Harvest data
+* using software to [harvest datasets](harvest_data/#harvest-data)
+* [adding datasets manually](add_data/#add-data-manually) using a form
 
-Test
+Harvesting means using software built by data.gov.uk, known as a ‘harvester’, to collect datasets from your website and publish them on data.gov.uk. Using the harvester lets you publish more than one dataset at once. You can also schedule harvests to keep data.gov.uk up to date.
 
-### Create a metadata record
-
-Test
-
-### Publish the metadata record
-
-Test
-
-#### DCAT/data.json fields
-
-Test
-
-#### CKAN files
-
-Test
-
-#### GEMINI and ISO 19139 metadata
-
-Test
-
-#### INSPIRE
-
-Test
-
-#### UK Location Metadata Editor guide (PDF)
-
-Test
-
-### Set up the harvester
-
-Test
-
-### Test the harvester
-
-Test
-
-## Adding data
-
-Test
-
-### Add an organogram
-
-Test
-
-### Add spend data
-
-Test
+>You must harvest [Location/INSPIRE data](inspire/#inspire).
