@@ -1,5 +1,5 @@
 # Host to use for canonical URL generation (without trailing slash)
-host: datagovuk-tech-docs.service.gov.uk
+host: datagovuk-tech-docs.cloudapps.digital
 
 # Header-related options
 show_govuk_logo: true

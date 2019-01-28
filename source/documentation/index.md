@@ -1,4 +1,4 @@
-# Data.gov.uk technical documentation
+# data.gov.uk technical documentation
 
 Data.gov.uk helps people find and use open government data.
 
