@@ -39,8 +39,6 @@ There are two key differences with GEMINI compared to ISO 19139:
 * the resource type will be 'dataset', 'series' or 'service' (not 'nonGeographicDataset')
 * the spatial extent of the data is indicated using a Geographic Bounding Box
 
-Detailed guidance on GEMINI is provided: [UK GEMINI Encoding Guidance](xx)
-
 ISO 19139 and GEMINI2 are similar, but you should validate using the GEMINI2 schematron in your GIS before publishing to data.gov.uk, to spot any issues earlier in the chain.
 
 When harvested, GEMINI records will be validated firstly with the two ISO19139 schemas and then finally with the GEMINI schematron:

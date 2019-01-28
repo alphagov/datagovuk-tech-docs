@@ -14,7 +14,7 @@ Editors and admins can join multiple organisations.
 
 ## Get an account
 
-To get an account you can [ask an existing editor or admin](xxx) to invite you or register for an account.
+To get an account you can ask an existing editor or admin to invite you or register for an account.
 
 ### Register for an account
 

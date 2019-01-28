@@ -6,7 +6,7 @@ This guidance explains the CKAN fields data.gov.uk accepts.
 
 ## Core dataset fields
 
-***NEEDS CONTENT HERE***
+You must complete the core fields.
 
 <div style="height:1px;font-size:1px;">&nbsp;</div>
 
