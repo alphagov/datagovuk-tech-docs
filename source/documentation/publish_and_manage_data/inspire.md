@@ -25,7 +25,7 @@ Local authorities should make use of the detailed guidance from the Local Govern
 
 ## Publishing INSPIRE/Location data
 
-The INSPIRE legislation requires most geo-spatial data to be published according to certain standards, and be registered on data.gov.uk in a certain way. The records must be published in [GEMINI format](gemini_and_iso_19139_metadata/) and be [harvested]((harvest_data/). Common ways to do this are:
+The INSPIRE legislation requires most geo-spatial data to be published according to certain standards, and be registered on data.gov.uk in a certain way. The records must be published in [GEMINI format](../harvest_data/gemini) and be [harvested](../harvest_data). Common ways to do this are:
 
 * metadata records
 * storing data in a GIS (Geographic Information System)
@@ -40,6 +40,6 @@ You can choose to store data in a GIS (Geographic Information System). This is c
 
 ## Harvesting metadata records
 
-Getting your metadata records into data.gov.uk is done by [setting up a data.gov.uk 'harvester'](harvest_data/). You should run the harvester regularly, to ensure that data.gov.uk stays in sync when the publisher updates the records.
+Getting your metadata records into data.gov.uk is done by [setting up a data.gov.uk 'harvester'](../harvest_data). You should run the harvester regularly, to ensure that data.gov.uk stays in sync when the publisher updates the records.
 
 Occasionally publishers have made the mistake of using an existing record as a template and simply using a text editor to change the key fields. The main problem with this is that you need to generate a new `gmd:fileIdentifier`, or data.gov.uk will harvest it and overwrite the record that was the template! To generate a new UUID (universally unique identifier) for this field, just visit <https://www.uuidgenerator.net/>.

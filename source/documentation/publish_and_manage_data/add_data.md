@@ -1,8 +1,8 @@
 # Add data manually
 
-If you don’t want to [automatically harvest datasets](harvest_data/), you can add a dataset to data.gov.uk using an online form. You must submit one form per dataset.
+If you don’t want to [automatically harvest datasets](../harvest_data), you can add a dataset to data.gov.uk using an online form. You must submit one form per dataset.
 
->You cannot use the form for publishing INSPIRE/Location data. See the guidance on [harvesting INSPIRE data](inspire/) for more information.
+>You cannot use the form for publishing INSPIRE/Location data. See the guidance on [harvesting INSPIRE data](../inspire) for more information.
 
 Sign into the [Data Publisher](https://ckan.publishing.service.gov.uk/).
 

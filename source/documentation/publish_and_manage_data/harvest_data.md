@@ -55,11 +55,11 @@ You must publish the metadata records on the internet in one of the following fo
 
 <div style="height:1px;font-size:1px;">&nbsp;</div>
 
-If a dataset falls under the [INSPIRE regulation](inspire/#inspire), you must publish the data set in a GEMINI format. You can also publish other geo-spatial/location data in the GEMINI format. But you must not use GEMINI for data that has no location element.
+If a dataset falls under the [INSPIRE regulation](../inspire), you must publish the data set in a GEMINI format. You can also publish other geo-spatial/location data in the GEMINI format. But you must not use GEMINI for data that has no location element.
 
 ### DCAT/data.json fields
 
-When using [DCAT](https://www.w3.org/TR/vocab-dcat/), it’s common to use additional fields or predicates from other vocabularies. Data.gov.uk will accept [additional fields or predicates](accepted_dcat_and_datajson_fields/) from other vocabularies.
+When using [DCAT](https://www.w3.org/TR/vocab-dcat/), it’s common to use additional fields or predicates from other vocabularies. Data.gov.uk will accept [additional fields or predicates](dcat) from other vocabularies.
 
 DCAT is suitable for linked data systems, but you may find data.json is more suitable for simple datasets. The data.json format has the fields data.gov.uk needs from DCAT, but removes the namespace prefixes and uses the well-known JSON syntax. This has the benefits of DCAT but is generally easier to produce.  
 
@@ -69,7 +69,7 @@ You must give the harvester the URL that returns the RDF for all the datasets. Y
 
 ### data.json
 
-The data.json format has the [same fields as DCAT](accepted_dcat_and_datajson_fields/), but expresses them more simply.
+The data.json format has the [same fields as DCAT](dcat), but expresses them more simply.
 
 You must give the harvester the URL that returns a JSON list containing the datasets. You can split the datasets into a number of pages, accessed using the ‘page’ parameter. For example, access page 2 by appending `?page=2` to the URL.
 
@@ -81,7 +81,7 @@ The CKAN harvester needs the URL of the CKAN home page, from where the harvester
 
 Data.gov.uk accepts most common CKAN fields, but has some customisations. For more information, refer to:
 
-* the [guidance on accepted CKAN fields](accepted_ckan_fields/)
+* the [guidance on accepted CKAN fields](ckan)
 * official [CKAN documentation](https://docs.ckan.org/en/2.7/)
 
 ### Inventory
@@ -105,8 +105,8 @@ CSW allows datasets in several XML-based formats, but data.gov.uk requires datas
 
 For more information, see the:
 
-* guidance on [GEMINI and ISO 19139 metadata](gemini_and_iso_19139_metadata/)
-* [Discovery Metadata Service Collection Information Specification (PDF)](https://guidance.data.gov.uk/static/DMS_Collection_Interface_Specification_10.pdf)
+* guidance on [GEMINI and ISO 19139 metadata](gemini)
+* [Discovery Metadata Service Collection Information Specification (PDF)](/static/DMS_Collection_Interface_Specification_10.pdf)
 
 ### Web Accessible Folder (WAF) (GEMINI)
 
@@ -132,15 +132,15 @@ Make sure the links do not have a path (have slashes) like this:
   <a href="/data/rivers.xml"/>
 ```
 
-Refer to the [Discovery Metadata Service Collection Information Specification (PDF)](https://guidance.data.gov.uk/static/DMS_Collection_Interface_Specification_10.pdf) for more information about WAF.
+Refer to the [Discovery Metadata Service Collection Information Specification (PDF)](/static/DMS_Collection_Interface_Specification_10.pdf) for more information about WAF.
 
-data.gov.uk requires the metadata is in GEMINI/ISO19139 format. For more information, see [GEMINI and ISO 19139 metadata](xxx).
+data.gov.uk requires the metadata is in GEMINI/ISO19139 format. For more information, see [GEMINI and ISO 19139 metadata](gemini).
 
 ### Single File (GEMINI)
 
 If you only have one dataset record to publish, or want to test a record without putting it in a CSW or WAF, you can point the harvester directly at the URL that returns the GEMINI/ISO19139 record (XML file).
 
-Data.gov.uk requires the metadata is in GEMINI/ISO19139 format. For more information, see [GEMINI and ISO 19139 metadata](gemini_and_iso_19139_metadata/).
+Data.gov.uk requires the metadata is in GEMINI/ISO19139 format. For more information, see [GEMINI and ISO 19139 metadata](gemini).
 
 ## Set up the harvester
 
