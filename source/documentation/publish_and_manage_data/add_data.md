@@ -73,7 +73,7 @@ For junior roles at below SCS pay band 1 (or equivalent) you must publish the:
 3. Select **Datasets**.
 4. Select **Add dataset**.
 5. Complete the fields with information about the organogram.
-6. Select the appropriate schema for your organogram (xxx) ***IS THIS SUPPOSED TO BE A LINK?***.
+6. Select the appropriate schema for your organogram.
 7. Select **Next**.
 8. Upload or link to the organogram and complete the remaining fields.
 9. Select **Publish**.
@@ -93,10 +93,7 @@ Sign into the [Data Publisher](https://ckan.publishing.service.gov.uk/) and find
 1. Select **Add data**.
 1. Select **Add new resource**.  
 1. Link or upload the data.
-1. Choose either
 1. Select **Publish**.
-
-***CHOOSE EITHER?***
 
 The new organogram will be added to the existing dataset.
 
