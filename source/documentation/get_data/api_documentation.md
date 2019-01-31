@@ -12,7 +12,7 @@ For example calls using curl and parameters see the [CKAN API documentation](htt
 
 ### Get datasets and publisher information
 
-***NEED CONTENT HERE FOR TABLE TO WORK***
+This table lists the parameters and returns with example URLs.
 
 <div style="height:1px;font-size:1px;">&nbsp;</div>
 
