@@ -37,4 +37,35 @@ show_contribution_banner: true
 github_repo: alphagov/datagovuk-tech-docs
 
 redirects:
+  /index.html: /
+  /faq.html: /
+  /api.html: /get_data/api_documentation/#api-documentation
+  /dgu_metadata_dumps.html:
+  /publishing_on_data_gov_uk_overview.html: /publish_and_manage_data/
+  /becoming_an_editor_or_admin.html: /publish_and_manage_data/get_and_manage_accounts/#get-and-manage-accounts
+  /dataset_form.html: /publish_and_manage_data/harvest_or_add_data/#test-the-harvest
+  /monthly_datasets_problem.html: /publish_and_manage_data/managing_published_data/#managing-published-data
+  /harvesting.html: /publish_and_manage_data/harvest_or_add_data/#harvest-data
+  /dcat_fields.html: /publish_and_manage_data/accepted_dcat_and_datajson_fields
+  /ckan_fields.html: /publish_and_manage_data/accepted_ckan_fields
+  /gemini_iso.html: /publish_and_manage_data/harvest_data/gemini_and_iso_19139_metadata
+  /inspire.html: /publish_and_manage_data/inspire
+  /publisher_tools.html: /
+  /reports.html: /
+  /glossary.html: /
+  /unpublished.html: /publish_and_manage_data/managing_published_data/#managing-published-data
+  /deleting_datasets.html: /publish_and_manage_data/managing_published_data/#managing-published-data
+  /theme.html: /
+  /five_stars_of_openness.html: /
+  /25k-spend-data.html: /publish_and_manage_data/add_data/#add-spend-data
   /organogram-data.html: /publish_and_manage_data/harvest_or_add_data/add_data/#add-an-organogram
+  /organogram-upload.html: /publish_and_manage_data/add_data/#add-an-organogram
+  /organogram-transition.html: /publish_and_manage_data/add_data/#add-an-organogram
+  /contracts_finder_archive_management.html: /
+  /publisher_faq.html: /
+  /assigning_editors_and_admins.html: /publish_and_manage_data/get_and_manage_accounts/#get-and-manage-accounts
+  /publisher_editing.html: /publish_and_manage_data/get_and_manage_accounts/#get-and-manage-accounts
+  /sysadmins.html: https://docs.publishing.service.gov.uk/manual.html#data-gov-uk
+  /publisher_creation.html: https://docs.publishing.service.gov.uk/manual.html#data-gov-uk
+  /metadata_management_from_the_commandline.html: https://docs.publishing.service.gov.uk/manual.html#data-gov-uk
+  /themes_management.html: https://docs.publishing.service.gov.uk/manual.html#data-gov-uk
