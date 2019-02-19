@@ -81,5 +81,17 @@ bundle exec middleman build
 This will create a `build` subfolder in the application folder which contains
 the HTML and asset files ready to be published.
 
+To publish the changes, login to cloud foundry:
+
+`cf login`
+
+The select the `data-gov-uk` space.
+
+To deploy your changes, run:
+
+`cf push -f manifest.yml`
+
+
+
 [rvm]: https://www.ruby-lang.org/en/documentation/installation/#managers
 [bundler]: http://bundler.io/
