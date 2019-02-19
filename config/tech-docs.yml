@@ -35,3 +35,6 @@ prevent_indexing: false
 
 show_contribution_banner: true
 github_repo: alphagov/datagovuk-tech-docs
+
+redirects:
+  /organogram-data.html: /publish_and_manage_data/harvest_or_add_data/add_data/#add-an-organogram
