@@ -28,7 +28,7 @@ Once you have added information about the dataset, you can add the dataset itsel
 
 Central government and agencies must publish organograms of all staff positions on data.gov.uk every 6 months. Organograms are published:
 
-* in a [collection of visualisations](https://data.gov.uk/organogram/)
+* in a [collection of visualisations](https://data.gov.uk/search?q=organogram)
 * as raw data in CSV format
 
 Some organisations, such as intelligence agencies, are exempt from publishing organograms.
