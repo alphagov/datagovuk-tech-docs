@@ -43,34 +43,11 @@ You must publish the data twice a year. Take a ‘snapshot’ of the roles on 31
 
 ### What to include
 
-For SCS pay band 2 (or equivalent) and above you must publish the:
-
-* name of the person
-* pay (in £5k pay bands)
-* grade
-* unit
-* contact phone/email
-* job title
-* role reported to
-* full time equivalent (FTE)
-* salary cost of reports
-* professional/occupational group
-
-For SCS pay band 1 (or equivalent) you must publish the same information as for SCS pay band 2, but without the name or pay.
-
-For junior roles at below SCS pay band 1 (or equivalent) you must publish the:
-
-* unit
-* senior role reported to
-* grade
-* payscale range
-* generic job title
-* number of posts in FTE
-* professional/occupational group
+You must fill in the [standard organogram template](https://ckan.publishing.service.gov.uk/publisher-files/Blank_Organogram_Template_latest.xls) with the details of your department's SCS 1 and 2 employees.
 
 ### How to publish an organogram
 
-1. Create your organogram using the [standard template](https://ckan.publishing.service.gov.uk/publisher-files/Blank_Organogram_Template_latest.xls).
+1. Create your organogram using the [standard organogram template](https://ckan.publishing.service.gov.uk/publisher-files/Blank_Organogram_Template_latest.xls).
 2. Sign into the [Data Publisher](https://ckan.publishing.service.gov.uk/).
 3. Select **Datasets**.
 4. Select **Add dataset**.
