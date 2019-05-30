@@ -47,6 +47,8 @@ You must fill in the [standard organogram template](https://ckan.publishing.serv
 
 ### How to publish an organogram
 
+Follow these instructions if your organisation does not already have an organogram dataset.
+
 1. Create your organogram using the [standard organogram template](https://ckan.publishing.service.gov.uk/publisher-files/Blank_Organogram_Template_latest.xls).
 2. Sign into the [Data Publisher](https://ckan.publishing.service.gov.uk/).
 3. Select **Datasets**.
@@ -59,12 +61,18 @@ You must fill in the [standard organogram template](https://ckan.publishing.serv
 8. Upload or link to the organogram and complete the remaining fields.
 9. Select **Publish**.
 
+A new dataset containing the organogram will be created. Add all future organograms for this organisation to this dataset.
+
 See the [organogram schema documentation](https://github.com/datagovuk/schemas/tree/master/organogram) for more information.  
 
-## Update an organogram
+## Add an organogram to a dataset
 
-Sign into the [Data Publisher](https://ckan.publishing.service.gov.uk/) and find the organogram you want to update.
+If your organisation already has an organogram dataset, you should add all new organograms to that dataset.
 
+1. Sign into the [Data Publisher](https://ckan.publishing.service.gov.uk/).
+1. Select **Datasets**.
+1. Search for the organogram dataset of your organisation.
+1. Select the dataset.
 1. Select **Manage**.
 1. Select **Add data**.
 1. Select **Add new resource**.  
