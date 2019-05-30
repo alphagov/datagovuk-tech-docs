@@ -9,7 +9,7 @@ phase:
 
 # Links to show on right-hand-side of header
 header_links:
-  About: https://data.gov.uk/
+  Publish your data: https://data.gov.uk/publishers
   Documentation: /
   Support: https://data.gov.uk/support
 
