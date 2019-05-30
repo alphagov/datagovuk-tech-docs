@@ -24,7 +24,7 @@ Once you have added information about the dataset, you can add the dataset itsel
 
 >As a signed in user, you’ll see any new datasets or changes immediately. However, changes may take up to one hour to appear to end users. Please be aware of this when notifying people or announcing releases.
 
-## Add an organogram
+## Publishing organograms
 
 Central government and agencies must publish organograms of all staff positions on data.gov.uk every 6 months. Organograms are published:
 
