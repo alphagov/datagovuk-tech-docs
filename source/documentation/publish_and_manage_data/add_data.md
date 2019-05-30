@@ -52,15 +52,12 @@ You must fill in the [standard organogram template](https://ckan.publishing.serv
 3. Select **Datasets**.
 4. Select **Add dataset**.
 5. Complete the fields with information about the organogram.
-6. Select the appropriate schema for your organogram.
+6. Select the appropriate schema for your organogram. Use:
+  * **Organisation structure including roles roles & salaries** for central government organograms
+  * **Organisation structure (for LGTC by LGA)** for local authority organograms
 7. Select **Next**.
 8. Upload or link to the organogram and complete the remaining fields.
 9. Select **Publish**.
-
->Make sure you select the correct schema for the organogram when publishing. Use:
-
->* `Organisation structure including roles roles & salaries` for central government organograms
->* `Organisation structure (for LGTC by LGA)` for local authority organograms
 
 See the [organogram schema documentation](https://github.com/datagovuk/schemas/tree/master/organogram) for more information.  
 
