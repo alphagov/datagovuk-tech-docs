@@ -5,7 +5,7 @@ host: guidance.data.gov.uk
 show_govuk_logo: true
 service_name: Data.gov.uk
 service_link: https://data.gov.uk/
-phase: Live
+phase:
 
 # Links to show on right-hand-side of header
 header_links:
