@@ -47,9 +47,9 @@ You must publish the data twice a year. Take a ‘snapshot’ of the roles on 31
 
 You must fill in the [standard organogram template](https://ckan.publishing.service.gov.uk/publisher-files/Blank_Organogram_Template_latest.xls) with the details of your department's SCS 1 and 2 employees.
 
-### How to publish an organogram
+### Publish an organogram dataset
 
-Follow these instructions if your organisation does not already have an organogram dataset.
+Follow these instructions if your organisation does not already have an organogram dataset. The instructions help you publish a new dataset containing an organogram. You can then add future organograms to this dataset.
 
 1. Create your organogram using the [standard organogram template](https://ckan.publishing.service.gov.uk/publisher-files/Blank_Organogram_Template_latest.xls).
 2. Sign into the [Data Publisher](https://ckan.publishing.service.gov.uk/).
