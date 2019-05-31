@@ -37,7 +37,7 @@ Some organisations, such as intelligence agencies, are exempt from publishing or
 
 Local authorities must publish senior staff data in a [different format](http://schemas.opendata.esd.org.uk/OrganisationStructure).
 
-For detailed policy guidance about publishing organograms, email the Cabinet Office transparency team at transparencydatateam@cabinetoffice.gov.uk.
+For detailed policy guidance about publishing organograms, email the Cabinet Office transparency team at <transparencydatateam@cabinetoffice.gov.uk>.
 
 ### When to publish organograms
 
