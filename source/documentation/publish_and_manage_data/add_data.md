@@ -45,7 +45,7 @@ You must publish the data twice a year. Take a ‘snapshot’ of the roles on 31
 
 ### What to include
 
-You must fill in the [standard organogram template](https://ckan.publishing.service.gov.uk/publisher-files/Blank_Organogram_Template_latest.xls) with the details of your department's SCS 1 and 2 employees.
+You must fill in the [standard organogram template](https://ckan.publishing.service.gov.uk/publisher-files/Blank_Organogram_Template_latest.xls) with the details of your department's  Senior Civil Service (SCS) pay band 1 and 2 employees.
 
 ### Publish an organogram dataset
 
