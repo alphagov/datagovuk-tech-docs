@@ -24,7 +24,9 @@ Once you have added information about the dataset, you can add the dataset itsel
 
 >As a signed in user, you’ll see any new datasets or changes immediately. However, changes may take up to one hour to appear to end users. Please be aware of this when notifying people or announcing releases.
 
-## Add an organogram
+## Publishing organograms
+
+Organograms are a description of the roles and salaries in the UK government at a particular point in time. They are an important publication in the government's effort to improve transparency of how the public sector manages resources.
 
 Central government and agencies must publish organograms of all staff positions on data.gov.uk every 6 months. Organograms are published:
 
@@ -41,54 +43,36 @@ You must publish the data twice a year. Take a ‘snapshot’ of the roles on 31
 
 ### What to include
 
-For SCS pay band 2 (or equivalent) and above you must publish the:
+You must fill in the [standard organogram template](https://ckan.publishing.service.gov.uk/publisher-files/Blank_Organogram_Template_latest.xls) with the details of your department's  Senior Civil Service (SCS) pay band 1 and 2 employees.
 
-* name of the person
-* pay (in £5k pay bands)
-* grade
-* unit
-* contact phone/email
-* job title
-* role reported to
-* full time equivalent (FTE)
-* salary cost of reports
-* professional/occupational group
+### Publish an organogram dataset
 
-For SCS pay band 1 (or equivalent) you must publish the same information as for SCS pay band 2, but without the name or pay.
+Follow these instructions if your organisation does not already have an organogram dataset. The instructions help you publish a new dataset containing an organogram. You can then add future organograms to this dataset.
 
-For junior roles at below SCS pay band 1 (or equivalent) you must publish the:
-
-* unit
-* senior role reported to
-* grade
-* payscale range
-* generic job title
-* number of posts in FTE
-* professional/occupational group
-
-### How to publish an organogram
-
-1. Create your organogram using the [standard template](https://ckan.publishing.service.gov.uk/publisher-files/Blank_Organogram_Template_latest.xls).
+1. Create your organogram using the [standard organogram template](https://ckan.publishing.service.gov.uk/publisher-files/Blank_Organogram_Template_latest.xls).
 2. Sign into the [Data Publisher](https://ckan.publishing.service.gov.uk/).
 3. Select **Datasets**.
 4. Select **Add dataset**.
 5. Complete the fields with information about the organogram.
-6. Select the appropriate schema for your organogram.
+6. Select the appropriate schema for your organogram. Use:
+  * **Organisation structure including roles roles & salaries** for central government organograms
+  * **Organisation structure (for LGTC by LGA)** for local authority organograms
 7. Select **Next**.
 8. Upload or link to the organogram and complete the remaining fields.
 9. Select **Publish**.
 
->Make sure you select the correct schema for the organogram when publishing. Use:
-
->* `Organisation structure including roles roles & salaries` for central government organograms
->* `Organisation structure (for LGTC by LGA)` for local authority organograms
+A new dataset containing the organogram will be created. Add all future organograms for this organisation to this dataset.
 
 See the [organogram schema documentation](https://github.com/datagovuk/schemas/tree/master/organogram) for more information.  
 
-## Update an organogram
+### Add an organogram to a dataset
 
-Sign into the [Data Publisher](https://ckan.publishing.service.gov.uk/) and find the organogram you want to update.
+If your organisation already has an organogram dataset, you should add all new organograms to that dataset.
 
+1. Sign into the [Data Publisher](https://ckan.publishing.service.gov.uk/).
+1. Select **Datasets**.
+1. Search for the organogram dataset of your organisation.
+1. Select the dataset.
 1. Select **Manage**.
 1. Select **Add data**.
 1. Select **Add new resource**.  
