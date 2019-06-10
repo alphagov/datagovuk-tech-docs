@@ -1,34 +1,32 @@
 # Get and manage accounts
 
-To publish and manage datasets on data.gov.uk you must have an administrator (admin) or editor account.
+There are two levels of access on data.gov.uk: editor and administrator (admin).
 
-Each account is associated with an organisation responsible for the dataset. For example, a local authority or central government department.
+Editors are able to publish and manage datasets associated with their organisation (for example, a local authority or central government department). Editors and admins can be in multiple organisations.
 
-Editors and admins can both create and edit datasets, but admins can also:
+Admins have the same abilities as editors but can also:
 
 * add and remove editors
 * manage editors’ activity
 * update information about their organisation(s)
 
-Editors and admins can join multiple organisations.
-
 ## Get an account
 
-To get an account you can ask an existing editor or admin to invite you or register for an account.
+### Get invited by an admin
+
+To get an account, you should ask an existing admin to invite you. This is the fastest and most reliable way to gain access. The admin can follow these [instructions for adding/removing accounts](#add-or-remove-editors-and-admins).
 
 ### Register for an account
 
-If you can’t find an existing member to invite you, you can [register for an account](https://data.gov.uk/support).
+If there are no admins, or you do not know who the admins for your organisation are, you can [register for an account](https://data.gov.uk/support). This process is slower as it requires a GOV.UK developer to manually process your request.
 
 When completing the form, state whether you need editor or admin permissions.
-
-You’ll then be able to add and manage datasets on data.gov.uk.
 
 ## Add or remove editors and admins
 
 An organisation can have multiple editors and admins.
 
-You can add additional editors or admins to an organisation via the [Data Publisher](https://ckan.publishing.service.gov.uk/). You must have an admin account for that organisation.
+As an admin, you can add additional editors or admins to an organisation via the [Data Publisher](https://ckan.publishing.service.gov.uk/).
 
 1. Go to the **Publishers** tab.
 1. Go to the name of the organisation, then **Manage** > **Members** > **Add member**.
