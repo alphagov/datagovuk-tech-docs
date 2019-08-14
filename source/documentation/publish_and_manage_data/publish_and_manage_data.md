@@ -1,6 +1,6 @@
 # Publish and manage datasets
 
-Data.gov.uk does not host datasets. Instead, you must first publish the dataset on your organisation’s website or on GOV.UK.
+Data.gov.uk does not host datasets. Instead, you must first publish the dataset (or supporting document) on your organisation’s website or on GOV.UK.
 
 You can then add the dataset to data.gov.uk, which will display a description and a link to the dataset.
 
