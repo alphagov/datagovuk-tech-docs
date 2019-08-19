@@ -1,4 +1,4 @@
-# Add data manually
+# Add datasets manually
 
 If you don’t want to [automatically harvest datasets](../harvest_data), you can add a dataset to data.gov.uk using an online form. You must submit one form per dataset.
 
