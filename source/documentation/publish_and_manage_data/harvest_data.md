@@ -2,6 +2,8 @@
 
 To use the data.gov.uk harvester, you must publish the datasets on the internet and then set up the harvester.
 
+Metadata fields from harvested datasets will be publicly available to users - including (where provided to us) personal information such as contact details for responsible parties. 
+
 1. Create a metadata record for the data.
 1. Publish the metadata record in a supported format.
 1. Set up the harvester.
