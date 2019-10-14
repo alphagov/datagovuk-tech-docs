@@ -9,7 +9,7 @@ Sign into the [Data Publisher](https://ckan.publishing.service.gov.uk/).
 1. Go to **Datasets**.
 1. Select **Add dataset**.
 1. Complete the fields with information about the dataset.
-1. Add contact details for the dataset.
+1. Add contact details for the dataset (these will be publicly available to users).
 1. Select **Next**.
 
 You can submit 2 sets of contact details per dataset. One set of contact details should be used for Freedom of Information (FOI) requests only.
