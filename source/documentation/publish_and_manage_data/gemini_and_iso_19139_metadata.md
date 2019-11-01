@@ -25,8 +25,8 @@ You can buy ISO 19139 as a PDF from ISO: [ISO/TS 19139:2007](http://www.iso.org/
 
 When harvested, ISO 19139 records will be validated using two schemas:
 
-* [ISO19139 XSD Schema (EDEN 2009-03-16)](https://github.com/datagovuk/ckanext-spatial/tree/dgu/ckanext/spatial/validation/xml/iso19139eden/gmd) (gmx/gmx.xsd)
-* [ISO19139 Table A.1 Constraints Schematron (Medin/Parslow 1.4)](https://github.com/datagovuk/ckanext-spatial/blob/dgu/ckanext/spatial/validation/xml/medin/ISOTS19139A1Constraints_v1.4.sch)
+* [ISO19139 XSD Schema (EDEN 2009-03-16)](https://github.com/alphagov/ckanext-spatial/tree/master/ckanext/spatial/validation/xml/iso19139eden/gmd) (gmx/gmx.xsd)
+* [ISO19139 Table A.1 Constraints Schematron (Medin/Parslow 1.4)](https://github.com/alphagov/ckanext-spatial/blob/master/ckanext/spatial/validation/xml/medin/ISOTS19139A1Constraints_v1.4.sch)
 
 Since ISO 19139 is designed for spatial data, it might seem anachronistic to use it for non-spatial data. However, it’s sometimes useful when using a Geographic Information System to also store both spatial datasets plus a few non-spatial datasets in the same system.
 
@@ -43,6 +43,6 @@ ISO 19139 and GEMINI2 are similar, but you should validate using the GEMINI2 sch
 
 When harvested, GEMINI records will be validated firstly with the two ISO19139 schemas and then finally with the GEMINI schematron:
 
-* [ISO 19139 XSD Schema (EDEN 2009-03-16)](https://github.com/datagovuk/ckanext-spatial/tree/dgu/ckanext/spatial/validation/xml/iso19139eden/gmd) (gmx_and_srv.xsd)
-* [ISO 19139 Table A.1 Constraints Schematron (Medin/Parslow 1.4)](https://github.com/datagovuk/ckanext-spatial/blob/dgu/ckanext/spatial/validation/xml/medin/ISOTS19139A1Constraints_v1.4.sch)
-* [GEMINI 2.1 Schematron 1.3](https://github.com/datagovuk/ckanext-spatial/blob/dgu/ckanext/spatial/validation/xml/gemini2/Gemini2_R1r3.sch)
+* [ISO 19139 XSD Schema (EDEN 2009-03-16)](https://github.com/alphagov/ckanext-spatial/tree/master/ckanext/spatial/validation/xml/iso19139eden/gmd) (gmx_and_srv.xsd)
+* [ISO 19139 Table A.1 Constraints Schematron (Medin/Parslow 1.4)](https://github.com/alphagov/ckanext-spatial/blob/master/ckanext/spatial/validation/xml/medin/ISOTS19139A1Constraints_v1.4.sch)
+* [GEMINI 2.3 Schematron](https://github.com/alphagov/ckanext-spatial/blob/master/ckanext/spatial/validation/xml/gemini2/GEMINI_2.3_Schematron_Schema-v1.0.sch)
