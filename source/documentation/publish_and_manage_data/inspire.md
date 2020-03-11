@@ -43,3 +43,10 @@ You can choose to store data in a GIS (Geographic Information System). This is c
 Getting your metadata records into data.gov.uk is done by [setting up a data.gov.uk 'harvester'](../harvest_data). You should run the harvester regularly, to ensure that data.gov.uk stays in sync when the publisher updates the records.
 
 Occasionally publishers have made the mistake of using an existing record as a template and simply using a text editor to change the key fields. The main problem with this is that you need to generate a new `gmd:fileIdentifier`, or data.gov.uk will harvest it and overwrite the record that was the template! To generate a new UUID (universally unique identifier) for this field, just visit <https://www.uuidgenerator.net/>.
+
+## Map preview
+
+In order to show the map preview, and the link to the map preview, the metadata needs to:
+
+- Follow the [WMS](https://en.wikipedia.org/wiki/Web_Map_Service) protocol version 1.3.0
+- Have resource type set to `service` and not `dataset`
