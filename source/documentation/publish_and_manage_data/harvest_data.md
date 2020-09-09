@@ -2,7 +2,7 @@
 
 To use the data.gov.uk harvester, you must publish the datasets on the internet and then set up the harvester.
 
-Metadata fields from harvested datasets will be publicly available to users - including (where provided to us) personal information such as contact details for responsible parties. 
+Metadata fields from harvested datasets will be publicly available to users - including (where provided to us) personal information such as contact details for responsible parties.
 
 1. Create a metadata record for the data.
 1. Publish the metadata record in a supported format.
@@ -63,7 +63,7 @@ If a dataset falls under the [INSPIRE regulation](../inspire), you must publish 
 
 When using [DCAT](https://www.w3.org/TR/vocab-dcat/), it’s common to use additional fields or predicates from other vocabularies. Data.gov.uk will accept [additional fields or predicates](dcat) from other vocabularies.
 
-DCAT is suitable for linked data systems, but you may find data.json is more suitable for simple datasets. The data.json format has the fields data.gov.uk needs from DCAT, but removes the namespace prefixes and uses the well-known JSON syntax. This has the benefits of DCAT but is generally easier to produce.  
+DCAT is suitable for linked data systems, but you may find data.json is more suitable for less complex datasets. The data.json format has the fields data.gov.uk needs from DCAT, but removes the namespace prefixes and uses the well-known JSON syntax. This has the benefits of DCAT but is generally easier to produce.  
 
 Although CKAN supports DCAT for the core fields, it is recommended to harvest from a CKAN using the CKAN harvester. This is because custom fields often do not map well to DCAT fields and can vary from portal to portal.
 
@@ -71,7 +71,7 @@ You must give the harvester the URL that returns the RDF for all the datasets. Y
 
 ### data.json
 
-The data.json format has the [same fields as DCAT](dcat), but expresses them more simply.
+The data.json format has the [same fields as DCAT](dcat), but expresses them more clearly.
 
 You must give the harvester the URL that returns a JSON list containing the datasets. You can split the datasets into a number of pages, accessed using the ‘page’ parameter. For example, access page 2 by appending `?page=2` to the URL.
 
