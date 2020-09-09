@@ -8,7 +8,7 @@ The schema should be referred to in the metadata by the URL which downloads the 
 
 2. Fill in the form saying what options you have chosen for the fields that have options.
 
-3. Open the developer toolbar and click on the 'Network' tab ( enable it to record the network requests).
+3. Open the developer toolbar and select 'Network' tab ( enable it to record the network requests).
 
 4. On the web page select **Validation File"** - ignore the download dialog box.
 

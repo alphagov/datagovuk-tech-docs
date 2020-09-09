@@ -38,7 +38,7 @@ SOLR provides the parameters for search calls. For example parameters, see the [
 
 <div style="height:1px;font-size:1px;">&nbsp;</div>
 
-Remember to escape these URLs. Most browsers will escape these automatically when you click on these example links, but some clients, such as Python, will mostly need them URL encoded (spaces to `%20` etc). And on the command-line remember to quote the whole URL, for example use single quotes:
+Remember to escape these URLs. Most browsers will escape these automatically when you open these example links, but some clients, such as Python, will mostly need them URL encoded (spaces to `%20` etc). And on the command-line remember to quote the whole URL, for example use single quotes:
 
 ```
 curl 'https://data.gov.uk/api/action/package_search?fq=publisher=peterborough-city-council’
