@@ -46,7 +46,7 @@ You must complete the core fields.
 | --------- | -------------- | ------------- |
 | name | Text to describe the resource. | Toilet spreadsheet |
 | date | Date the resource applies to. Format: YYYY or YYYY/MM or YYYY/MM/DD. A dataset's resources should all have a date value or none should. | 2014/12 |
-| url | URL to the file, webpage or API. It is not good enough to simply link to a page of links to the dataset - all the direct links to the data files must be supplied separately. | https://open.barnet.gov.uk/dataset/d7384c92-5828-41a3-9d12-36d6db5c192f/resource/3e9934ac-492a-4042-971c-fe49bd9ca7e7/download/publictoiletsabfv3.0.csv |
+| url | URL to the file, webpage or API. It is not good enough to link to a page of links to the dataset - all the direct links to the data files must be supplied separately. | https://open.barnet.gov.uk/dataset/d7384c92-5828-41a3-9d12-36d6db5c192f/resource/3e9934ac-492a-4042-971c-fe49bd9ca7e7/download/publictoiletsabfv3.0.csv |
 | format | File format. For example CSV, XLS, PDF, RDF, SHP, HTML, SPARQL, API. Do not mention if a file is zipped - just the format inside the zip. | CSV |
 | resource_type | If it is data, then: file or api Otherwise: documentation | file |
 | schema_url | URL of the machine-readable schema that the dataset conforms to. If it’s not a standard format leave blank. See [Local Authority data schemas](xxx) | http://schemas.opendata.esd.org.uk/publictoilets/PublicToilets.json?v=0.41 |
