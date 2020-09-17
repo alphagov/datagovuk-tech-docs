@@ -15,7 +15,7 @@ header_links:
 
 # Links to show in the page footer
 footer_links:
-  data.gov.uk Technical Documentation Accessibility: /accessibility-statement
+  data.gov.uk Technical Documentation Accessibility: /accessibility-statement.html
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
 enable_search: true
