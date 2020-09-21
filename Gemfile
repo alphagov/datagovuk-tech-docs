@@ -10,3 +10,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Include the tech docs gem
 gem 'govuk_tech_docs'
+
+# Include specific version of FFI until following issue is fixed:
+# https://github.com/ffi/ffi/issues/791
+gem "ffi", "1.12"
