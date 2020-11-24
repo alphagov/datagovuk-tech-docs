@@ -41,7 +41,7 @@ SOLR provides the parameters for search calls. For example parameters, see the [
 Remember to escape these URLs. Most browsers will escape these automatically when you open these example links, but some clients, such as Python, will mostly need them URL encoded (spaces to `%20` etc). And on the command-line remember to quote the whole URL, for example use single quotes:
 
 ```
-curl 'https://data.gov.uk/api/action/package_search?fq=publisher=peterborough-city-council’
+curl 'https://data.gov.uk/api/action/package_search?fq=publisher=peterborough-city-council'
 ```
 
 ### Get publisher information
