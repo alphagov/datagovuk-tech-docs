@@ -43,19 +43,15 @@ Write your description in [plain English](https://www.gov.uk/guidance/content-de
 
 You must publish the metadata records on the internet in one of the following formats.
 
-<div style="height:1px;font-size:1px;">&nbsp;</div>
-
-| Format                               | Suitable for                                   | INSPIRE/Location data | Example harvest URL                                        |
-|--------------------------------------|---------------------------------------------|-----------------------|------------------------------------------------------------|
-| DCAT                                 | Triple-stores                               | No                    | http://opendatacommunities.org/data.ttl                    |
-| data.json                            | Socrata, custom systems                     | No                    | https://nycopendata.socrata.com/data.json                  |
-| CKAN                                 | CKAN                                        | No                    | https://open.barnet.gov.uk/                                |
-| Inventory                            | DataShare                                   | No                    | http://data.bracknell-forest.gov.uk/api/esdInventory       |
-| GEMINI - CSW Server                  | GeoNetwork, ArcGIS                          | Yes                   | http://metadata.bgs.ac.uk/geonetwork/srv/en/csw            |
-| GEMINI - Web Accessible Format (WAF) | UK Location Metadata Editor, custom systems | Yes                   | http://www.ordnancesurvey.co.uk/oswebsite/xml/products     |
-| GEMINI - single file                 | Test data                                         | Yes                   | https://itportal.decc.gov.uk/web_files/gis/xml/DECC_ON.xml |
-
-<div style="height:1px;font-size:1px;">&nbsp;</div>
+| Format                                 | Suitable for | INSPIRE/Location data | Example harvest URL |
+|----------------------------------------|--------------|-----------------------|---------------------|
+| # DCAT                                 | Triple-stores  | No                  | http://opendatacommunities.org/data.ttl |
+| # data.json                            | Socrata, custom systems | No         | https://nycopendata.socrata.com/data.json                  |
+| # CKAN                                 | CKAN         | No                    | https://open.barnet.gov.uk/ |
+| # Inventory                            | DataShare    | No                    | http://data.bracknell-forest.gov.uk/api/esdInventory |
+| # GEMINI - CSW Server                  | GeoNetwork, ArcGIS | Yes             | http://metadata.bgs.ac.uk/geonetwork/srv/en/csw |
+| # GEMINI - Web Accessible Format (WAF) | UK Location Metadata Editor, custom systems | Yes | http://www.ordnancesurvey.co.uk/oswebsite/xml/products |
+| # GEMINI - single file                 | Test data    | Yes                   | https://itportal.decc.gov.uk/web_files/gis/xml/DECC_ON.xml |
 
 If a dataset falls under the [INSPIRE regulation](../inspire), you must publish the data set in a GEMINI format. You can also publish other geo-spatial/location data in the GEMINI format. But you must not use GEMINI for data that has no location element.
 
@@ -118,7 +114,7 @@ However, the HTML must not have a path specified in it. The XML files must be at
 
 For example, the source of the WAF web page may look similar to the following:
 
-```
+```html
 <html>
  <body>
   <a href="rivers.xml"/>
@@ -130,7 +126,7 @@ For example, the source of the WAF web page may look similar to the following:
 
 Make sure the links do not have a path (have slashes) like this:
 
-```
+```html
   <a href="/data/rivers.xml"/>
 ```
 
