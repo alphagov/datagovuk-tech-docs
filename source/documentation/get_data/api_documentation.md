@@ -1,6 +1,6 @@
 # API documentation
 
-The data.gov.uk API uses the [CKAN API and its extensions](https://docs.ckan.org/en/2.7/api/index.html).
+The data.gov.uk API uses the [CKAN API and its extensions](https://docs.ckan.org/en/2.9/api/index.html).
 
 You do not need an API key to use the API and there are no rate limits.
 
