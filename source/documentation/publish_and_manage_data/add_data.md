@@ -28,7 +28,7 @@ Once you have added information about the dataset, you can add the dataset itsel
 
 Organograms are a description of the roles and salaries in the UK government at a particular point in time. They are an important publication in the government's effort to improve transparency of how the public sector manages resources.
 
-Central government and agencies must publish organograms of all staff positions on data.gov.uk every 6 months. Organograms are published:
+Central government and agencies must publish organograms of all staff positions on data.gov.uk every 3 months. Organograms are published:
 
 * in a [collection of visualisations](https://data.gov.uk/search?q=organogram)
 * as raw data in CSV format
@@ -39,7 +39,12 @@ Local authorities must publish senior staff data in a [different format](http://
 
 ### When to publish organograms
 
-You must publish the data twice a year. Take a ‘snapshot’ of the roles on 31 March and 30 September and publish them on data.gov.uk by 6 June and 6 December respectively.
+You must publish the data 4 times a year. Take a ‘snapshot’ of the roles on:
+
+- 31st March to be published by 30th April
+- 30th June to be published by 31st July
+- 30th September to be published by 30th October
+- 31st December to be published by 31st January
 
 ### What to include
 
