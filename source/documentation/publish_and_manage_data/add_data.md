@@ -39,7 +39,12 @@ Local authorities must publish senior staff data in a [different format](http://
 
 ### When to publish organograms
 
-You must publish the data 4 times a year. Take a ‘snapshot’ of the roles on 31 March, 30 June, 30 September, 31 December and publish them on data.gov.uk by 30th April, 31st July, 31st October and 31st January respectively.
+You must publish the data 4 times a year. Take a ‘snapshot’ of the roles on:
+
+- 31st March to be published by 30th April
+- 30th June to be published by 31st July
+- 30th September to be published by 30th October
+- 31st December to be published by 31st January
 
 ### What to include
 
