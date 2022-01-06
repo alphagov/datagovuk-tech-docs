@@ -68,8 +68,6 @@ Follow these instructions if your organisation does not already have an organogr
 
 A new dataset containing the organogram will be created. Add all future organograms for this organisation to this dataset.
 
-See the [organogram schema documentation](https://github.com/datagovuk/schemas/tree/master/organogram) for more information.  
-
 ### Add an organogram to a dataset
 
 If your organisation already has an organogram dataset, you should add all new organograms to that dataset.
