@@ -23,17 +23,17 @@ This table lists the parameters and returns with example URLs.
 
 Use `package_search` to search datasets.
 
-SOLR provides the parameters for search calls. For example parameters, see the [SOLR documentation](https://lucene.apache.org/solr/guide/7_6/common-query-parameters.html).
+SOLR provides the parameters for search calls. For example parameters, see the [SOLR documentation](https://lucene.apache.org/solr/guide/7_6/common-query-parameters.html). 
 
 | Parameter | Action          | Example URL                                    |
 |-----------|-----------------|------------------------------------------------|
 | # `q`     | Free text query | https://data.gov.uk/api/action/package_search?q=fish |
-| # `fq`    | Data by field   | https://data.gov.uk/api/action/package_search?fq=publisher=peterborough-city-council |
+| # `fq`    | Data by field   | https://ckan.publishing.service.gov.uk/api/action/package_search?fq=organization:peterborough-city-council |
 
 Remember to escape these URLs. Most browsers will escape these automatically when you open these example links, but some clients, such as Python, will mostly need them URL encoded (spaces to `%20` etc). And on the command-line remember to quote the whole URL, for example use single quotes:
 
 ```
-curl 'https://data.gov.uk/api/action/package_search?fq=publisher=peterborough-city-council'
+curl 'https://ckan.publishing.service.gov.uk/api/action/package_search?fq=organization:peterborough-city-council'
 ```
 
 ### Get publisher information
