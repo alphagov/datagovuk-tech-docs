@@ -23,7 +23,7 @@ This table lists the parameters and returns with example URLs.
 
 Use `package_search` to search datasets.
 
-SOLR provides the parameters for search calls. For example parameters, see the [SOLR documentation](https://lucene.apache.org/solr/guide/7_6/common-query-parameters.html). 
+SOLR provides the parameters for search calls. For example parameters, see the [SOLR documentation](https://lucene.apache.org/solr/guide/7_6/common-query-parameters.html).
 
 | Parameter | Action          | Example URL                                    |
 |-----------|-----------------|------------------------------------------------|
