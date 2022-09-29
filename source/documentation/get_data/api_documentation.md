@@ -25,10 +25,13 @@ Use `package_search` to search datasets.
 
 SOLR provides the parameters for search calls. For example parameters, see the [SOLR documentation](https://lucene.apache.org/solr/guide/7_6/common-query-parameters.html).
 
+The number of results returned defaults to 10. Use a `rows` parameter to change this.
+
 | Parameter | Action          | Example URL                                    |
 |-----------|-----------------|------------------------------------------------|
 | # `q`     | Free text query | https://data.gov.uk/api/action/package_search?q=fish |
 | # `fq`    | Data by field   | https://data.gov.uk/api/action/package_search?fq=organization:peterborough-city-council |
+| # `rows`  | Max rows to return  | https://data.gov.uk/api/action/package_search?fq=organization%3Acabinet-office&rows=200 |
 
 Remember to escape these URLs. Most browsers will escape these automatically when you open these example links, but some clients, such as Python, will mostly need them URL encoded (spaces to `%20` etc). And on the command-line remember to quote the whole URL, for example use single quotes:
 
