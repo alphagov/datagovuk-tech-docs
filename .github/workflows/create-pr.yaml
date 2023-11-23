@@ -1,0 +1,27 @@
+name: Create charts PR
+
+on:
+  workflow_dispatch:
+  workflow_run:
+    workflows: [ "Build and push images" ]
+    types:
+      - completed
+    branches:
+      - main
+
+jobs:
+  create_pr:
+    name: Create charts PR
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout datagovuk-tech-docs repository
+        uses: actions/checkout@v4
+        with:
+          repository: alphagov/datagovuk-tech-docs
+      - name: Create PR
+        run: bash ./docker/create-pr.sh
+        env:
+          GH_TOKEN: ${{ secrets.PR_GITHUB_TOKEN }}
+          GH_REF: ${{ github.ref_name }}
+          IS_TAG: "false"
+          ENVS: "integration"
