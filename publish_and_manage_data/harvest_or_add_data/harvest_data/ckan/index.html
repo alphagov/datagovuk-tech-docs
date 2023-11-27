@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en" class="govuk-template no-js">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <title>Accepted CKAN fields - Data.gov.uk</title>
+
+    <link href="/stylesheets/manifest.css" rel="stylesheet" />
+
+    <link rel="canonical" href="guidance.data.gov.uk/publish_and_manage_data/harvest_or_add_data/harvest_data/ckan/">
+
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="guidance.data.gov.uk/images/govuk-large.png" />
+      <meta name="twitter:title" content="Accepted CKAN fields - Data.gov.uk" />
+      <meta name="twitter:url" content="guidance.data.gov.uk/publish_and_manage_data/harvest_or_add_data/harvest_data/ckan/" />
+
+      <meta property="og:image" content="guidance.data.gov.uk/images/govuk-large.png" />
+      <meta property="og:site_name" content="Data.gov.uk" />
+      <meta property="og:title" content="Accepted CKAN fields" />
+      <meta property="og:type" content="object" />
+      <meta property="og:url" content="guidance.data.gov.uk/publish_and_manage_data/harvest_or_add_data/harvest_data/ckan/" />
+
+    
+  </head>
+
+  <body class="govuk-template__body">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+    <div class="app-pane">
+      <div class="app-pane__header toc-open-disabled">
+        <a href="#content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+
+        <header class="govuk-header app-header" role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-header__container--full-width">
+    <div class="govuk-header__logo">
+      <a href="https://data.gov.uk/" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__logotype">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            class="govuk-header__logotype-crown"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 132 97"
+            height="30"
+            width="36"
+          >
+            <path
+              fill="currentColor" fill-rule="evenodd"
+              d="M25 30.2c3.5 1.5 7.7-.2 9.1-3.7 1.5-3.6-.2-7.8-3.9-9.2-3.6-1.4-7.6.3-9.1 3.9-1.4 3.5.3 7.5 3.9 9zM9 39.5c3.6 1.5 7.8-.2 9.2-3.7 1.5-3.6-.2-7.8-3.9-9.1-3.6-1.5-7.6.2-9.1 3.8-1.4 3.5.3 7.5 3.8 9zM4.4 57.2c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.5-1.5-7.6.3-9.1 3.8-1.4 3.5.3 7.6 3.9 9.1zm38.3-21.4c3.5 1.5 7.7-.2 9.1-3.8 1.5-3.6-.2-7.7-3.9-9.1-3.6-1.5-7.6.3-9.1 3.8-1.3 3.6.4 7.7 3.9 9.1zm64.4-5.6c-3.6 1.5-7.8-.2-9.1-3.7-1.5-3.6.2-7.8 3.8-9.2 3.6-1.4 7.7.3 9.2 3.9 1.3 3.5-.4 7.5-3.9 9zm15.9 9.3c-3.6 1.5-7.7-.2-9.1-3.7-1.5-3.6.2-7.8 3.7-9.1 3.6-1.5 7.7.2 9.2 3.8 1.5 3.5-.3 7.5-3.8 9zm4.7 17.7c-3.6 1.5-7.8-.2-9.2-3.8-1.5-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.3 3.5-.4 7.6-3.9 9.1zM89.3 35.8c-3.6 1.5-7.8-.2-9.2-3.8-1.4-3.6.2-7.7 3.9-9.1 3.6-1.5 7.7.3 9.2 3.8 1.4 3.6-.3 7.7-3.9 9.1zM69.7 17.7l8.9 4.7V9.3l-8.9 2.8c-.2-.3-.5-.6-.9-.9L72.4 0H59.6l3.5 11.2c-.3.3-.6.5-.9.9l-8.8-2.8v13.1l8.8-4.7c.3.3.6.7.9.9l-5 15.4v.1c-.2.8-.4 1.6-.4 2.4 0 4.1 3.1 7.5 7 8.1h.2c.3 0 .7.1 1 .1.4 0 .7 0 1-.1h.2c4-.6 7.1-4.1 7.1-8.1 0-.8-.1-1.7-.4-2.4V34l-5.1-15.4c.4-.2.7-.6 1-.9zM66 92.8c16.9 0 32.8 1.1 47.1 3.2 4-16.9 8.9-26.7 14-33.5l-9.6-3.4c1 4.9 1.1 7.2 0 10.2-1.5-1.4-3-4.3-4.2-8.7L108.6 76c2.8-2 5-3.2 7.5-3.3-4.4 9.4-10 11.9-13.6 11.2-4.3-.8-6.3-4.6-5.6-7.9 1-4.7 5.7-5.9 8-.5 4.3-8.7-3-11.4-7.6-8.8 7.1-7.2 7.9-13.5 2.1-21.1-8 6.1-8.1 12.3-4.5 20.8-4.7-5.4-12.1-2.5-9.5 6.2 3.4-5.2 7.9-2 7.2 3.1-.6 4.3-6.4 7.8-13.5 7.2-10.3-.9-10.9-8-11.2-13.8 2.5-.5 7.1 1.8 11 7.3L80.2 60c-4.1 4.4-8 5.3-12.3 5.4 1.4-4.4 8-11.6 8-11.6H55.5s6.4 7.2 7.9 11.6c-4.2-.1-8-1-12.3-5.4l1.4 16.4c3.9-5.5 8.5-7.7 10.9-7.3-.3 5.8-.9 12.8-11.1 13.8-7.2.6-12.9-2.9-13.5-7.2-.7-5 3.8-8.3 7.1-3.1 2.7-8.7-4.6-11.6-9.4-6.2 3.7-8.5 3.6-14.7-4.6-20.8-5.8 7.6-5 13.9 2.2 21.1-4.7-2.6-11.9.1-7.7 8.8 2.3-5.5 7.1-4.2 8.1.5.7 3.3-1.3 7.1-5.7 7.9-3.5.7-9-1.8-13.5-11.2 2.5.1 4.7 1.3 7.5 3.3l-4.7-15.4c-1.2 4.4-2.7 7.2-4.3 8.7-1.1-3-.9-5.3 0-10.2l-9.5 3.4c5 6.9 9.9 16.7 14 33.5 14.8-2.1 30.8-3.2 47.7-3.2z"
+            ></path>
+          </svg>
+          <span class="govuk-header__logotype-text">
+            GOV.UK
+          </span>
+        </span>
+        <span class="govuk-header__product-name">
+          Data.gov.uk
+        </span>
+      </a>
+    </div>
+    <div class="govuk-header__content">
+      <nav class="govuk-header__navigation govuk-header__navigation--end" aria-label="Menu">
+        <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide menu">Menu</button>
+        <ul id="navigation" class="govuk-header__navigation-list">
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="https://data.gov.uk/publishers">Publish your data</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/static">Documentation</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="https://data.gov.uk/support">Support</a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+      </div>
+
+        <div id="toc-heading" class="toc-show fixedsticky">
+          <button type="button" class="toc-show__label js-toc-show" aria-controls="toc">
+            Table of contents <span class="toc-show__icon"></span>
+          </button>
+        </div>
+
+      <div class="app-pane__body" data-module="in-page-navigation">
+          <div class="app-pane__toc">
+            <div class="toc" data-module="table-of-contents" tabindex="-1" aria-label="Table of contents" role="dialog">
+              <div class="search" data-module="search" data-path-to-site-root="/">
+  <form action="https://www.google.co.uk/search" method="get" role="search" class="search__form govuk-!-margin-bottom-4">
+    <input type="hidden" name="as_sitesearch" value="guidance.data.gov.uk"/>
+    <label class="govuk-label search__label" for="search" aria-hidden="true">
+      Search (via Google)
+    </label>
+    <input
+      type="text"
+      id="search" name="q"
+      class="govuk-input govuk-!-margin-bottom-0 search__input"
+      aria-controls="search-results"
+      placeholder="Search">
+    <button type="submit" class="search__button">Search</button>
+  </form>
+</div>
+
+              <button type="button" class="toc__close js-toc-close" aria-controls="toc" aria-label="Hide table of contents"></button>
+              <nav id="toc" class="js-toc-list toc__list" aria-labelledby="toc-heading" data-module="collapsible-navigation">
+                      <ul>
+  <li>
+    <a href="/static"><span>data.gov.uk technical documentation</span></a>
+  </li>
+<li><a href="/publish_and_manage_data/"><span>Publish and manage data</span></a>
+<ul>
+  <li>
+    <a href="/publish_and_manage_data/get_and_manage_accounts/"><span>Get and manage accounts</span></a>
+  </li>
+<li><a href="/publish_and_manage_data/harvest_or_add_data/"><span>Harvest or add data</span></a>
+<ul>
+<li><a href="/publish_and_manage_data/harvest_or_add_data/harvest_data/"><span>Harvest data</span></a>
+<ul>
+  <li>
+    <a href="/publish_and_manage_data/harvest_or_add_data/harvest_data/dcat/"><span>Accepted DCAT and data.json fields</span></a>
+  </li>
+  <li>
+    <a href="/publish_and_manage_data/harvest_or_add_data/harvest_data/ckan/"><span>Accepted CKAN fields</span></a>
+  </li>
+  <li>
+    <a href="/publish_and_manage_data/harvest_or_add_data/harvest_data/gemini/"><span>GEMINI and ISO 19139 metadata</span></a>
+  </li>
+</ul>
+</li>
+  <li>
+    <a href="/publish_and_manage_data/harvest_or_add_data/add_data/"><span>Add datasets manually</span></a>
+  </li>
+  <li>
+    <a href="/publish_and_manage_data/harvest_or_add_data/inspire/"><span>INSPIRE</span></a>
+  </li>
+  <li>
+    <a href="/publish_and_manage_data/harvest_or_add_data/local_authority_data_schemas/"><span>Local Authority data schemas</span></a>
+  </li>
+</ul>
+</li>
+  <li>
+    <a href="/publish_and_manage_data/managing_published_data/"><span>Managing published data</span></a>
+  </li>
+</ul>
+</li>
+<li><a href="/get_data/"><span>Get data</span></a>
+<ul>
+  <li>
+    <a href="/get_data/api_documentation/"><span>API documentation</span></a>
+  </li>
+</ul>
+</li>
+<li><a href="/support/"><span>Support</span></a>
+<ul>
+  <li>
+    <a href="/support/contribute/"><span>Contribute</span></a>
+  </li>
+</ul>
+</li>
+</ul>
+
+
+              </nav>
+            </div>
+          </div>
+
+        <div class="app-pane__content toc-open-disabled" aria-label="Content" tabindex="0">
+          <main id="content" class="technical-documentation" data-module="anchored-headings">
+            <h1 id="accepted-ckan-fields">Accepted CKAN fields</h1>
+
+<p>Refer to the <a href="https://ckan.readthedocs.io/en/latest/">CKAN documentation</a> for up to date guidance on using CKAN.</p>
+
+<p>This guidance explains the CKAN fields data.gov.uk accepts.</p>
+
+<h2 id="core-dataset-fields">Core dataset fields</h2>
+
+<p>You must complete the core fields.</p>
+
+<div class="table-container">
+        <table>
+          <tr>
+<th>Field key</th>
+<th>Value guidance</th>
+<th>Example value</th>
+</tr><tr>
+<th scope="row">name</th>
+<td>If there is a clash with an existing dataset in data.gov.uk then it will be modified to have a number suffixed, to make it unique.</td>
+<td>river-levels-sussex</td>
+</tr><tr>
+<th scope="row">title</th>
+<td>Name of the dataset. This is for general public to quickly understand what the dataset is about.</td>
+<td>River Levels in Sussex</td>
+</tr><tr>
+<th scope="row">notes</th>
+<td>Longer description of the data, for example, how it was collected.</td>
+<td>Recorded daily from automated monitoring stations. Recorded at midday, published by 3pm the same day. Accurate to nearest centimetre.</td>
+</tr><tr>
+<th scope="row"> license_id</th>
+<td>CKAN internal ID for the data&rsquo;s licence, from CKAN&rsquo;s standard list of IDs. If the license is not in CKAN&rsquo;s standard list then specify (in free-text) the name of the licence in the most standard way possible. If no standard licence is used then supply the full text of the terms of use.</td>
+<td>&ldquo;uk-ogl&rdquo; or &ldquo;OS OpenData Licence&rdquo;</td>
+</tr>
+        </table>
+      </div><h2 id="extra-fields">Extra fields</h2>
+
+<blockquote>
+<p>Local Authorities in particular should make sure they fill in the la_service, la_function, schema_type and schema_url fields.</p>
+</blockquote>
+<div class="table-container">
+        <table>
+          <tr>
+<th>Field key</th>
+<th>Value guidance</th>
+<th>Example value</th>
+</tr><tr>
+<th scope="row">la_service</th>
+<td>Service as listed here: http://standards.esd.org.uk/?uri=list%2Fservices More than one can be specified, separated by spaces.</td>
+<td>http://id.esd.org.uk/service/190</td>
+</tr><tr>
+<th scope="row">la_function</th>
+<td>Function as listed here: http://standards.esd.org.uk/?uri=list%2Ffunctions More than one can be specified, separated by spaces.</td>
+<td>http://id.esd.org.uk/service/437</td>
+</tr><tr>
+<th scope="row">contact-name, <br>contact-phone, <br>contact-email</th>
+<td>Contact details for this dataset. Normally you should not specify these - instead fill them in for the organisation in data.gov.uk and the organisation’s datasets will have those details displayed.</td>
+<td>&ldquo;contact-name&rdquo;: &ldquo;Information Handling Team&rdquo;, <br>&ldquo;contact-phone&rdquo;: &ldquo;0208 445 3423&rdquo;, <br>&ldquo;contact-email&rdquo;: &ldquo;informationhandling@dft.gsi.gov.uk&rdquo;</td>
+</tr><tr>
+<th scope="row">foi-name, <br>foi-phone, <br>foi-email, <br>foi-web</th>
+<td>Freedom of Information (FOI) contact details for the dataset. Normally you should not specify these - instead fill them in on data.gov.uk for the organisation and the organisation’s datasets will have those details displayed.</td>
+<td></td>
+</tr><tr>
+<th scope="row">temporal_coverage-from, temporal_coverage-to</th>
+<td>Gives the temporal coverage of the data. Each value can be YYYY, YYYY/MM or YYYY/MM/DD</td>
+<td>&ldquo;temporal_coverage-from&rdquo;: &ldquo;1979-01-01&rdquo;, <br> &ldquo;temporal_coverage-to&rdquo;: &ldquo;2013-12-31&rdquo;</td>
+</tr><tr>
+<th scope="row">mandate</th>
+<td>URLs for the exact part of legislation that brought about the collection of this dataset (or if none, the public commitment or announcement, if available.)</td>
+<td>[&ldquo;http://www.legislation.gov.uk/ukpga/2014/26/section/168/enacted&rdquo;]</td>
+</tr><tr>
+<th scope="row">update_frequency</th>
+<td>For example, never, discontinued, annual, quarterly, monthly</td>
+<td>annual</td>
+</tr><tr>
+<th scope="row">unpublished</th>
+<td>Allows you to report data that exists, but is not published</td>
+<td>false</td>
+</tr>
+        </table>
+      </div><h2 id="resources">Resources</h2>
+<div class="table-container">
+        <table>
+          <tr>
+<th>Field key</th>
+<th>Value guidance</th>
+<th>Example value</th>
+</tr><tr>
+<th scope="row">name</th>
+<td>Text to describe the resource.</td>
+<td>Toilet spreadsheet</td>
+</tr><tr>
+<th scope="row">date</th>
+<td>Date the resource applies to. Format: YYYY or YYYY/MM or YYYY/MM/DD. A dataset&rsquo;s resources should all have a date value or none should.</td>
+<td>2014/12</td>
+</tr><tr>
+<th scope="row">url</th>
+<td>URL to the file, webpage or API. It is not good enough to link to a page of links to the dataset - all the direct links to the data files must be supplied separately.</td>
+<td>https://open.barnet.gov.uk/dataset/d7384c92-5828-41a3-9d12-36d6db5c192f/resource/3e9934ac-492a-4042-971c-fe49bd9ca7e7/download/publictoiletsabfv3.0.csv</td>
+</tr><tr>
+<th scope="row">format</th>
+<td>File format. For example CSV, XLS, PDF, RDF, SHP, HTML, SPARQL, API. Do not mention if a file is zipped - just the format inside the zip.</td>
+<td>CSV</td>
+</tr><tr>
+<th scope="row">resource_type</th>
+<td>If it is data, then: file or api Otherwise: documentation</td>
+<td>file</td>
+</tr><tr>
+<th scope="row">schema_url</th>
+<td>URL of the machine-readable schema that the dataset conforms to. If it’s not a standard format leave blank. See Local Authority data schemas</td>
+<td>http://schemas.opendata.esd.org.uk/publictoilets/PublicToilets.json?v=0.41</td>
+</tr><tr>
+<th scope="row">schema_type</th>
+<td>The type of schema specified in schema_url. Fo example, csvlint or xsd</td>
+<td>csvlint</td>
+</tr>
+        </table>
+      </div>
+
+            
+          </main>
+
+          <aside>
+              <ul class="contribution-banner">
+                <li><a href="https://github.com/alphagov/datagovuk-tech-docs/blob/master/source/publish_and_manage_data/harvest_or_add_data/harvest_data/ckan/index.html.md.erb">View source</a></li>
+                <li><a href="https://github.com/alphagov/datagovuk-tech-docs/issues/new?body=Problem+with+%27Accepted+CKAN+fields%27+%28guidance.data.gov.uk%2Fpublish_and_manage_data%2Fharvest_or_add_data%2Fharvest_data%2Fckan%2F%29&amp;labels=bug&amp;title=Re%3A+%27Accepted+CKAN+fields%27">Report problem</a></li>
+                <li><a href="https://github.com/alphagov/datagovuk-tech-docs">GitHub Repo</a></li>
+              </ul>
+          </aside>
+
+          <footer class="govuk-footer app-footer" role="contentinfo">
+  <div class="govuk-footer__meta">
+    <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+
+        <ul class="govuk-footer__inline-list">
+            <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="/accessibility-statement.html">data.gov.uk Technical Documentation Accessibility</a>
+            </li>
+        </ul>
+
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        class="govuk-footer__licence-logo"
+        xmlns="http://www.w3.org/2000/svg"
+        viewbox="0 0 483.2 195.7"
+        height="17"
+        width="41"
+      >
+        <path
+          fill="currentColor"
+          d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+        />
+      </svg>
+      <span class="govuk-footer__licence-description">
+        All content is available under the
+        <a
+          class="govuk-footer__link"
+          href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+          rel="license"
+        >Open Government Licence v3.0</a>, except where otherwise stated
+      </span>
+    </div>
+    <div class="govuk-footer__meta-item">
+      <a
+        class="govuk-footer__link govuk-footer__copyright-logo"
+        href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+      >© Crown copyright</a>
+    </div>
+  </div>
+</footer>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="/javascripts/application.js"></script>
+  </body>
+</html>

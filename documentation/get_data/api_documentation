@@ -1,0 +1,79 @@
+<h1 id="api-documentation">API documentation</h1>
+<p>The data.gov.uk API uses the <a href="https://docs.ckan.org/en/2.9/api/index.html">CKAN API and its extensions</a>.</p>
+<p>You do not need an API key to use the API and there are no rate limits.</p>
+<p>To call the API, post a JSON dictionary in a HTTP POST request to one of the data.gov.uk API URLs. The base URL for all calls is <code>https://data.gov.uk/api/action/</code>.</p>
+<p>In CKAN vocabulary, <code>packages</code> refers to ‘datasets’.</p>
+<p>For example calls using curl and parameters see the <a href="https://ckan.readthedocs.io/en/latest/api/index.html">CKAN API documentation</a>.</p>
+<h3 id="get-datasets-and-publisher-information">Get datasets and publisher information</h3>
+<p>This table lists the parameters and returns with example URLs.</p>
+<div class="table-container">
+        <table>
+          <tr>
+<th>Parameter</th>
+<th>Returns</th>
+<th>Example URL</th>
+</tr><tr>
+<th scope="row"><code>package_list</code>
+</th>
+<td>List of datasets</td>
+<td>https://data.gov.uk/api/action/package_list</td>
+</tr><tr>
+<th scope="row"><code>package_show?id=&lt;PUBLISHER-NAME&gt;</code>
+</th>
+<td>Information about a single dataset</td>
+<td>https://data.gov.uk/api/action/package_show?id=cabinet-office-energy-use</td>
+</tr>
+        </table>
+      </div><h3 id="search-datasets">Search datasets</h3>
+<p>Use <code>package_search</code> to search datasets.</p>
+<p>SOLR provides the parameters for search calls. For example parameters, see the <a href="https://lucene.apache.org/solr/guide/7_6/common-query-parameters.html">SOLR documentation</a>.</p>
+<p>The number of results returned defaults to 10. Use a <code>rows</code> parameter to change this.</p>
+<div class="table-container">
+        <table>
+          <tr>
+<th>Parameter</th>
+<th>Action</th>
+<th>Example URL</th>
+</tr><tr>
+<th scope="row"><code>q</code>
+</th>
+<td>Free text query</td>
+<td>https://data.gov.uk/api/action/package_search?q=fish</td>
+</tr><tr>
+<th scope="row"><code>fq</code>
+</th>
+<td>Data by field</td>
+<td>https://data.gov.uk/api/action/package_search?fq=organization:peterborough-city-council</td>
+</tr><tr>
+<th scope="row"><code>rows</code>
+</th>
+<td>Max rows to return</td>
+<td>https://data.gov.uk/api/action/package_search?fq=organization%3Acabinet-office&amp;rows=200</td>
+</tr>
+        </table>
+      </div><p>Remember to escape these URLs. Most browsers will escape these automatically when you open these example links, but some clients, such as Python, will mostly need them URL encoded (spaces to <code>%20</code> etc). And on the command-line remember to quote the whole URL, for example use single quotes:</p>
+<div class="highlight"><pre class="highlight plaintext" tabindex="0"><code>curl 'https://data.gov.uk/api/action/package_search?fq=organization:peterborough-city-council'
+</code></pre></div><h3 id="get-publisher-information">Get publisher information</h3>
+<p>Data.gov.uk uses CKAN <code>organizations</code> to store what is shown as ‘publishers’ on the frontend.</p>
+<div class="table-container">
+        <table>
+          <tr>
+<th>Parameter</th>
+<th>Returns</th>
+<th>Example URL</th>
+</tr><tr>
+<th scope="row"><code>organization_list</code>
+</th>
+<td>List of publishers</td>
+<td>https://data.gov.uk/api/action/organization_list</td>
+</tr><tr>
+<th scope="row"><code>organization_show?id=&lt;PUBLISHER-NAME&gt;</code>
+</th>
+<td>Information about a single publisher</td>
+<td>https://data.gov.uk/api/action/organization_show?id=cabinet-office&amp;include_datasets=false</td>
+</tr>
+        </table>
+      </div><h2 id="send-a-data-request">Send a data request</h2>
+<p>If you cannot find the data you need, you can ask government to publish a dataset that is not yet published on data.gov.uk.</p>
+<p><a href="https://data.gov.uk/support">Send a data request</a> to the data.gov.uk team and they will forward it to the relevant government department.</p>
+<p>For requests and questions about a dataset already on data.gov.uk, you can contact the publisher directly if they’ve provided their contact details next to the dataset.</p>

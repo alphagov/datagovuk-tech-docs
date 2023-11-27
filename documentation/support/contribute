@@ -1,0 +1,9 @@
+<h1 id="contribute">Contribute</h1>
+<p>Data.gov.uk’s code is public and freely available under an MIT License and the data.gov.uk <a href="https://gds.blog.gov.uk/2012/10/12/coding-in-the-open/">team codes in the open</a>.</p>
+<p>We welcome contributions for code and documentation repositories:</p>
+
+<ul>
+<li><a href="https://github.com/alphagov/ckanext-datagovuk/">CKAN extension for data.gov.uk</a></li>
+<li><a href="https://github.com/alphagov/datagovuk_find">Find open data beta</a></li>
+<li><a href="https://github.com/alphagov/datagovuk-tech-docs">Data.gov.uk documentation</a></li>
+</ul>

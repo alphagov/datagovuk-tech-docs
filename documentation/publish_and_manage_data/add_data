@@ -1,0 +1,104 @@
+<h1 id="add-datasets-manually">Add datasets manually</h1>
+<p>If you do not want to <a href="../harvest_data">automatically harvest datasets</a>, you can add a dataset to data.gov.uk using an online form. You must submit one form per dataset.</p>
+
+<blockquote>
+<p>You cannot use the form for publishing INSPIRE/Location data. See the guidance on <a href="../inspire">harvesting INSPIRE data</a> for more information.</p>
+</blockquote>
+<p>Sign into the <a href="https://ckan.publishing.service.gov.uk/">Data Publisher</a>.</p>
+
+<ol>
+<li>Go to <strong>Datasets</strong>.</li>
+<li>Select <strong>Add dataset</strong>.</li>
+<li>Complete the fields with information about the dataset.</li>
+<li>Add contact details for the dataset (these will be publicly available to users).</li>
+<li>Select <strong>Next</strong>.</li>
+</ol>
+<p>You can submit 2 sets of contact details per dataset. One set of contact details should be used for Freedom of Information (FOI) requests only.</p>
+<p>You can edit the dataset information anytime after it’s published.</p>
+<p>Once you have added information about the dataset, you can add the dataset itself.</p>
+
+<ol>
+<li>Select <strong>Add new resource</strong>.</li>
+<li>Complete the fields.</li>
+<li>Select <strong>Publish</strong>.</li>
+</ol>
+
+<blockquote>
+<p>As a signed in user, you’ll see any new datasets or changes immediately. However, changes may take up to one hour to appear to end users. Please be aware of this when notifying people or announcing releases.</p>
+</blockquote>
+<h2 id="publishing-organograms">Publishing organograms</h2>
+<p>Organograms are a description of the roles and salaries in the UK government at a particular point in time. They are an important publication in the government&rsquo;s effort to improve transparency of how the public sector manages resources.</p>
+<p>Central government and agencies must publish organograms of all staff positions on data.gov.uk every 3 months. Organograms are published:</p>
+
+<ul>
+<li>in a <a href="https://data.gov.uk/search?q=organogram">collection of visualisations</a></li>
+<li>as raw data in CSV format</li>
+</ul>
+<p>Some organisations, such as intelligence agencies, are exempt from publishing organograms.</p>
+<p>Local authorities must publish senior staff data in a <a href="http://schemas.opendata.esd.org.uk/OrganisationStructure">different format</a>.</p>
+<h3 id="when-to-publish-organograms">When to publish organograms</h3>
+<p>You must publish the data 4 times a year. Take a ‘snapshot’ of the roles on:</p>
+
+<ul>
+<li>31st March to be published by 30th April</li>
+<li>30th June to be published by 31st July</li>
+<li>30th September to be published by 30th October</li>
+<li>31st December to be published by 31st January</li>
+</ul>
+<h3 id="what-to-include">What to include</h3>
+<p>You must fill in the <a href="https://ckan.publishing.service.gov.uk/publisher-files/Blank_Organogram_Template_latest.xls">standard organogram template</a> with the details of your department&rsquo;s  Senior Civil Service (SCS) pay band 1 and 2 employees.</p>
+<h3 id="publish-an-organogram-dataset">Publish an organogram dataset</h3>
+<p>Follow these instructions if your organisation does not already have an organogram dataset. The instructions help you publish a new dataset containing an organogram. You can then add future organograms to this dataset.</p>
+
+<ol>
+<li>Create your organogram using the <a href="https://ckan.publishing.service.gov.uk/publisher-files/Blank_Organogram_Template_latest.xls">standard organogram template</a>.</li>
+<li>Sign into the <a href="https://ckan.publishing.service.gov.uk/">Data Publisher</a>.</li>
+<li>Select <strong>Datasets</strong>.</li>
+<li>Select <strong>Add dataset</strong>.</li>
+<li>Complete the fields with information about the organogram.</li>
+<li>Select the appropriate schema for your organogram. Use:
+
+<ul>
+<li><strong>Organisation structure including roles roles &amp; salaries</strong> for central government organograms</li>
+<li><strong>Organisation structure (for LGTC by LGA)</strong> for local authority organograms</li>
+</ul></li>
+<li>Select <strong>Next</strong>.</li>
+<li>Upload or link to the organogram and complete the remaining fields.</li>
+<li>Select <strong>Publish</strong>.</li>
+</ol>
+<p>A new dataset containing the organogram will be created. Add all future organograms for this organisation to this dataset.</p>
+<h3 id="add-an-organogram-to-a-dataset">Add an organogram to a dataset</h3>
+<p>If your organisation already has an organogram dataset, you should add all new organograms to that dataset.</p>
+
+<ol>
+<li>Sign into the <a href="https://ckan.publishing.service.gov.uk/">Data Publisher</a>.</li>
+<li>Select <strong>Datasets</strong>.</li>
+<li>Search for the organogram dataset of your organisation.</li>
+<li>Select the dataset.</li>
+<li>Select <strong>Manage</strong>.</li>
+<li>Select <strong>Add data</strong>.</li>
+<li>Select <strong>Add new resource</strong>.<br></li>
+<li>Link or upload the data.</li>
+<li>Select <strong>Publish</strong>.</li>
+</ol>
+<p>The new organogram will be added to the existing dataset.</p>
+<h2 id="add-spend-data">Add spend data</h2>
+<p>Central and local government bodies (including NHS) must publish the details of their expenditure transactions every month. This guidance explains how to add these details to data.gov.uk.</p>
+<h3 id="about-spend-data">About spend data</h3>
+<p>Central government must publish spend data one month in arrears. HM Treasury provides <a href="https://www.gov.uk/government/publications/guidance-for-publishing-spend-over-25000">advice on publishing spend over £25,000</a>, including templates and published examples.</p>
+<p>Local government must publish information every month or as soon as it becomes available. The <a href="https://www.gov.uk/government/publications/local-government-transparency-code-2015">local government transparency code</a> explains what local authorities should publish and when.</p>
+<h3 id="add-new-spend-data">Add new spend data</h3>
+<p>To add a new dataset, sign into the <a href="https://ckan.publishing.service.gov.uk/">Data Publisher</a>.</p>
+
+<ol>
+<li>Find the dataset you want to update.</li>
+<li>Select <strong>Manage</strong>.</li>
+<li>Select <strong>Add data</strong>.</li>
+<li>Select <strong>Add new resource</strong> and add details of the dataset you want to upload.</li>
+<li>Select <strong>Publish</strong>.</li>
+</ol>
+<p>The new data will be added to the existing dataset.</p>
+
+<blockquote>
+<p>Each organisation should only have one dataset for spend over £25,000 and another for GPC spend data. Do not create a brand new dataset for each month.</p>
+</blockquote>

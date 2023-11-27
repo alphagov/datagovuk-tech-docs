@@ -1,0 +1,112 @@
+<h1 id="accepted-ckan-fields">Accepted CKAN fields</h1>
+<p>Refer to the <a href="https://ckan.readthedocs.io/en/latest/">CKAN documentation</a> for up to date guidance on using CKAN.</p>
+<p>This guidance explains the CKAN fields data.gov.uk accepts.</p>
+<h2 id="core-dataset-fields">Core dataset fields</h2>
+<p>You must complete the core fields.</p>
+<div class="table-container">
+        <table>
+          <tr>
+<th>Field key</th>
+<th>Value guidance</th>
+<th>Example value</th>
+</tr><tr>
+<th scope="row">name</th>
+<td>If there is a clash with an existing dataset in data.gov.uk then it will be modified to have a number suffixed, to make it unique.</td>
+<td>river-levels-sussex</td>
+</tr><tr>
+<th scope="row">title</th>
+<td>Name of the dataset. This is for general public to quickly understand what the dataset is about.</td>
+<td>River Levels in Sussex</td>
+</tr><tr>
+<th scope="row">notes</th>
+<td>Longer description of the data, for example, how it was collected.</td>
+<td>Recorded daily from automated monitoring stations. Recorded at midday, published by 3pm the same day. Accurate to nearest centimetre.</td>
+</tr><tr>
+<th scope="row"> license_id</th>
+<td>CKAN internal ID for the data&rsquo;s licence, from CKAN&rsquo;s standard list of IDs. If the license is not in CKAN&rsquo;s standard list then specify (in free-text) the name of the licence in the most standard way possible. If no standard licence is used then supply the full text of the terms of use.</td>
+<td>&ldquo;uk-ogl&rdquo; or &ldquo;OS OpenData Licence&rdquo;</td>
+</tr>
+        </table>
+      </div><h2 id="extra-fields">Extra fields</h2>
+
+<blockquote>
+<p>Local Authorities in particular should make sure they fill in the la_service, la_function, schema_type and schema_url fields.</p>
+</blockquote>
+<div class="table-container">
+        <table>
+          <tr>
+<th>Field key</th>
+<th>Value guidance</th>
+<th>Example value</th>
+</tr><tr>
+<th scope="row">la_service</th>
+<td>Service as listed here: http://standards.esd.org.uk/?uri=list%2Fservices More than one can be specified, separated by spaces.</td>
+<td>http://id.esd.org.uk/service/190</td>
+</tr><tr>
+<th scope="row">la_function</th>
+<td>Function as listed here: http://standards.esd.org.uk/?uri=list%2Ffunctions More than one can be specified, separated by spaces.</td>
+<td>http://id.esd.org.uk/service/437</td>
+</tr><tr>
+<th scope="row">contact-name, <br>contact-phone, <br>contact-email</th>
+<td>Contact details for this dataset. Normally you should not specify these - instead fill them in for the organisation in data.gov.uk and the organisation’s datasets will have those details displayed.</td>
+<td>&ldquo;contact-name&rdquo;: &ldquo;Information Handling Team&rdquo;, <br>&ldquo;contact-phone&rdquo;: &ldquo;0208 445 3423&rdquo;, <br>&ldquo;contact-email&rdquo;: &ldquo;informationhandling@dft.gsi.gov.uk&rdquo;</td>
+</tr><tr>
+<th scope="row">foi-name, <br>foi-phone, <br>foi-email, <br>foi-web</th>
+<td>Freedom of Information (FOI) contact details for the dataset. Normally you should not specify these - instead fill them in on data.gov.uk for the organisation and the organisation’s datasets will have those details displayed.</td>
+<td></td>
+</tr><tr>
+<th scope="row">temporal_coverage-from, temporal_coverage-to</th>
+<td>Gives the temporal coverage of the data. Each value can be YYYY, YYYY/MM or YYYY/MM/DD</td>
+<td>&ldquo;temporal_coverage-from&rdquo;: &ldquo;1979-01-01&rdquo;, <br> &ldquo;temporal_coverage-to&rdquo;: &ldquo;2013-12-31&rdquo;</td>
+</tr><tr>
+<th scope="row">mandate</th>
+<td>URLs for the exact part of legislation that brought about the collection of this dataset (or if none, the public commitment or announcement, if available.)</td>
+<td>[&ldquo;http://www.legislation.gov.uk/ukpga/2014/26/section/168/enacted&rdquo;]</td>
+</tr><tr>
+<th scope="row">update_frequency</th>
+<td>For example, never, discontinued, annual, quarterly, monthly</td>
+<td>annual</td>
+</tr><tr>
+<th scope="row">unpublished</th>
+<td>Allows you to report data that exists, but is not published</td>
+<td>false</td>
+</tr>
+        </table>
+      </div><h2 id="resources">Resources</h2>
+<div class="table-container">
+        <table>
+          <tr>
+<th>Field key</th>
+<th>Value guidance</th>
+<th>Example value</th>
+</tr><tr>
+<th scope="row">name</th>
+<td>Text to describe the resource.</td>
+<td>Toilet spreadsheet</td>
+</tr><tr>
+<th scope="row">date</th>
+<td>Date the resource applies to. Format: YYYY or YYYY/MM or YYYY/MM/DD. A dataset&rsquo;s resources should all have a date value or none should.</td>
+<td>2014/12</td>
+</tr><tr>
+<th scope="row">url</th>
+<td>URL to the file, webpage or API. It is not good enough to link to a page of links to the dataset - all the direct links to the data files must be supplied separately.</td>
+<td>https://open.barnet.gov.uk/dataset/d7384c92-5828-41a3-9d12-36d6db5c192f/resource/3e9934ac-492a-4042-971c-fe49bd9ca7e7/download/publictoiletsabfv3.0.csv</td>
+</tr><tr>
+<th scope="row">format</th>
+<td>File format. For example CSV, XLS, PDF, RDF, SHP, HTML, SPARQL, API. Do not mention if a file is zipped - just the format inside the zip.</td>
+<td>CSV</td>
+</tr><tr>
+<th scope="row">resource_type</th>
+<td>If it is data, then: file or api Otherwise: documentation</td>
+<td>file</td>
+</tr><tr>
+<th scope="row">schema_url</th>
+<td>URL of the machine-readable schema that the dataset conforms to. If it’s not a standard format leave blank. See Local Authority data schemas</td>
+<td>http://schemas.opendata.esd.org.uk/publictoilets/PublicToilets.json?v=0.41</td>
+</tr><tr>
+<th scope="row">schema_type</th>
+<td>The type of schema specified in schema_url. Fo example, csvlint or xsd</td>
+<td>csvlint</td>
+</tr>
+        </table>
+      </div>

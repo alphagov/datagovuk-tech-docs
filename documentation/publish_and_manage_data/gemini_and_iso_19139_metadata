@@ -1,0 +1,40 @@
+<h1 id="gemini-and-iso-19139-metadata">GEMINI and ISO 19139 metadata</h1>
+<p>The CSW/WAF/Single-File harvesters all require the records to be in either GEMINI or ISO 19139 format, depending on whether the data is (geo-)spatial or not. Use:</p>
+
+<ul>
+<li>ISO 19139 for <strong>non-spatial</strong> data</li>
+<li>GEMINI 2.3 for <strong>spatial</strong> data (including INSPIRE datasets)</li>
+</ul>
+<h2 id="iso-19139">ISO 19139</h2>
+<p>You should make sure ISO 19139 non-spatialdata has a resource type of &ldquo;nonGeographicDataset&rdquo;, as follows:</p>
+<div class="highlight"><pre class="highlight plaintext" tabindex="0"><code>    &lt;gmd:hierarchyLevel&gt;
+      &lt;gmd:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="nonGeographicDataset"&gt;
+        nonGeographicDataset
+      &lt;/gmd:MD_ScopeCode&gt;
+    &lt;/gmd:hierarchyLevel&gt;
+</code></pre></div><p>Otherwise it will be treated as GEMINI spatial data and you&rsquo;ll get see GEMINI validation errors.</p>
+<p>ISO 19139 is an XML schema for the Geographic Metadata (gmd) specification ISO 19115.</p>
+<p>You can buy ISO 19139 as a PDF from ISO: <a href="http://www.iso.org/iso/catalogue_detail.htm?csnumber=32557">ISO/TS 19139:2007</a> or refer to the <a href="https://github.com/datagovuk/ckanext-spatial/tree/dgu/ckanext/spatial/validation/xml/iso19139eden">ISO19139 XSD schema</a>.</p>
+<p>When harvested, ISO 19139 records will be validated using two schemas:</p>
+
+<ul>
+<li><a href="https://github.com/alphagov/ckanext-spatial/tree/master/ckanext/spatial/validation/xml/iso19139eden/gmd">ISO19139 XSD Schema (EDEN 2009-03-16)</a> (gmx/gmx.xsd)</li>
+<li><a href="https://github.com/alphagov/ckanext-spatial/blob/master/ckanext/spatial/validation/xml/medin/ISOTS19139A1Constraints_v1.4.sch">ISO19139 Table A.1 Constraints Schematron (Medin/Parslow 1.4)</a></li>
+</ul>
+<p>Since ISO 19139 is designed for spatial data, it might seem anachronistic to use it for non-spatial data. However, it’s sometimes useful when using a Geographic Information System to also store both spatial datasets plus a few non-spatial datasets in the same system.</p>
+<h2 id="gemini">GEMINI</h2>
+<p>GEMINI is the UK standard for spatial metadata. It’s based on ISO 19139 and takes into account the needs of INSPIRE too.</p>
+<p>There are two key differences with GEMINI compared to ISO 19139:</p>
+
+<ul>
+<li>the resource type will be &lsquo;dataset&rsquo;, &lsquo;series&rsquo; or &lsquo;service&rsquo; (not &lsquo;nonGeographicDataset&rsquo;)</li>
+<li>the spatial extent of the data is indicated using a Geographic Bounding Box</li>
+</ul>
+<p>ISO 19139 and GEMINI2 are similar, but you should validate using the GEMINI2 schematron in your GIS before publishing to data.gov.uk, to spot any issues earlier in the chain.</p>
+<p>When harvested, GEMINI records will be validated firstly with the two ISO19139 schemas and then finally with the GEMINI schematron:</p>
+
+<ul>
+<li><a href="https://github.com/alphagov/ckanext-spatial/tree/master/ckanext/spatial/validation/xml/iso19139eden/gmd">ISO 19139 XSD Schema (EDEN 2009-03-16)</a> (gmx_and_srv.xsd)</li>
+<li><a href="https://github.com/alphagov/ckanext-spatial/blob/master/ckanext/spatial/validation/xml/medin/ISOTS19139A1Constraints_v1.4.sch">ISO 19139 Table A.1 Constraints Schematron (Medin/Parslow 1.4)</a></li>
+<li><a href="https://github.com/alphagov/ckanext-spatial/blob/master/ckanext/spatial/validation/xml/gemini2/GEMINI_2.3_Schematron_Schema-v1.0.sch">GEMINI 2.3 Schematron</a></li>
+</ul>

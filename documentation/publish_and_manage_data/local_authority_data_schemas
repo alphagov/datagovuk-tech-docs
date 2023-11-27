@@ -1,0 +1,13 @@
+<h1 id="local-authority-data-schemas">Local Authority data schemas</h1>
+<p>The Local Government Association (LGA) has released schemas for key datasets, for example Public Toilets and LA Spend Transactions. When publishing metadata on these datasets, Local Authorities should include the URL for the schema that it uses. This allows users to understand the format of the data. It also allows them to do basic validation that the file is formatted correctly.</p>
+<p>The schema should be referred to in the metadata by the URL which downloads the schema file (rather than the URL to a web page about the schema, which is not machine-readable).</p>
+
+<ol>
+<li><p>Browse to the schema page in Firefox or Chrome. For example for Spend data it’s <code>http://csvchecker.opendata.esd.org.uk/spend</code>.</p></li>
+<li><p>Fill in the form saying what options you have chosen for the fields that have options.</p></li>
+<li><p>Open the developer toolbar and select &lsquo;Network&rsquo; tab ( enable it to record the network requests).</p></li>
+<li><p>On the web page select <strong>Validation File&quot;</strong> - ignore the download dialog box.</p></li>
+<li><p>In the Network tab you&rsquo;ll get a list of URLs - use the first one. Copy and paste it into the correct field, either &ldquo;conformsTo&rdquo; (data.json/DCAT/Inventory) or &ldquo;schema_url&rdquo; (CKAN).</p></li>
+</ol>
+<p>It should look similar to:</p>
+<div class="highlight"><pre class="highlight plaintext" tabindex="0"><code></code></pre></div>

@@ -1,0 +1,159 @@
+<h1 id="harvest-data">Harvest data</h1>
+<p>To use the data.gov.uk harvester, you must publish the datasets on the internet and then set up the harvester.</p>
+<p>Metadata fields from harvested datasets will be publicly available to users - including (where provided to us) personal information such as contact details for responsible parties.</p>
+
+<ol>
+<li>Create a metadata record for the data.</li>
+<li>Publish the metadata record in a supported format.</li>
+<li>Set up the harvester.</li>
+<li>Test the harvest.</li>
+</ol>
+<h2 id="create-a-metadata-record">Create a metadata record</h2>
+<p>To use the data.gov.uk harvester, you must host the dataset publicly on the internet for the harvester to find.</p>
+<p>You must describe each dataset in a ‘metadata record’ and give information about the dataset such as:</p>
+
+<ul>
+<li>title</li>
+<li>description</li>
+<li>link to download the data file</li>
+</ul>
+<p>The harvester will display the title and description from the metadata record on data.gov.uk. This information helps users find data so make sure you <a href="https://www.gov.uk/guidance/content-design/data-and-analytics#how-to-optimise-your-content-for-search">use popular keywords</a>.</p>
+<h3 id="complete-the-title-field">Complete the title field</h3>
+<p>Use <a href="https://www.gov.uk/guidance/content-design/writing-for-gov-uk#how-people-read">plain English</a> terms where possible and put the information the user is most likely to search for at the start of the title. The title should be no more than 65 characters including spaces.</p>
+<p>Do not include the name of the publishing organisation, for example <code>Car parks</code> rather than <code>Brent Council car parks</code>.</p>
+<h3 id="complete-the-description-field">Complete the description field</h3>
+<p>Along with the title, the first sentence of the description will be shown in search results. This sentence should be 140 characters or less. Search engines will automatically shorten any descriptions that are longer than this.</p>
+<p>The description should explain:</p>
+
+<ul>
+<li>what the data is about</li>
+<li>why it was produced</li>
+<li>if there are any known problems with the dataset, for example if it’s incomplete</li>
+</ul>
+<p>Write your description in <a href="https://www.gov.uk/guidance/content-design/writing-for-gov-uk#how-people-read">plain English</a>. Include any keywords that you didn’t use in the title to help users find your dataset.</p>
+<h2 id="publish-the-metadata-record">Publish the metadata record</h2>
+<p>You must publish the metadata records on the internet in one of the following formats.</p>
+<div class="table-container">
+        <table>
+          <tr>
+<th>Format</th>
+<th>Suitable for</th>
+<th>INSPIRE/Location data</th>
+<th>Example harvest URL</th>
+</tr><tr>
+<th scope="row">DCAT</th>
+<td>Triple-stores</td>
+<td>No</td>
+<td>http://opendatacommunities.org/data.ttl</td>
+</tr><tr>
+<th scope="row">data.json</th>
+<td>Socrata, custom systems</td>
+<td>No</td>
+<td>https://nycopendata.socrata.com/data.json</td>
+</tr><tr>
+<th scope="row">CKAN</th>
+<td>CKAN</td>
+<td>No</td>
+<td>https://open.barnet.gov.uk/</td>
+</tr><tr>
+<th scope="row">Inventory</th>
+<td>DataShare</td>
+<td>No</td>
+<td>http://data.bracknell-forest.gov.uk/api/esdInventory</td>
+</tr><tr>
+<th scope="row">GEMINI - CSW Server</th>
+<td>GeoNetwork, ArcGIS</td>
+<td>Yes</td>
+<td>http://metadata.bgs.ac.uk/geonetwork/srv/en/csw</td>
+</tr><tr>
+<th scope="row">GEMINI - Web Accessible Format (WAF)</th>
+<td>UK Location Metadata Editor, custom systems</td>
+<td>Yes</td>
+<td>http://www.ordnancesurvey.co.uk/oswebsite/xml/products</td>
+</tr><tr>
+<th scope="row">GEMINI - single file</th>
+<td>Test data</td>
+<td>Yes</td>
+<td>https://itportal.decc.gov.uk/web_files/gis/xml/DECC_ON.xml</td>
+</tr>
+        </table>
+      </div><p>If a dataset falls under the <a href="../inspire">INSPIRE regulation</a>, you must publish the data set in a GEMINI format. You can also publish other geo-spatial/location data in the GEMINI format. But you must not use GEMINI for data that has no location element.</p>
+<h3 id="dcat-data-json-fields">DCAT/data.json fields</h3>
+<p>When using <a href="https://www.w3.org/TR/vocab-dcat/">DCAT</a>, it’s common to use additional fields or predicates from other vocabularies. Data.gov.uk will accept <a href="dcat">additional fields or predicates</a> from other vocabularies.</p>
+<p>DCAT is suitable for linked data systems, but you may find data.json is more suitable for less complex datasets. The data.json format has the fields data.gov.uk needs from DCAT, but removes the namespace prefixes and uses the well-known JSON syntax. This has the benefits of DCAT but is generally easier to produce.</p>
+<p>Although CKAN supports DCAT for the core fields, it is recommended to harvest from a CKAN using the CKAN harvester. This is because custom fields often do not map well to DCAT fields and can vary from portal to portal.</p>
+<p>You must give the harvester the URL that returns the RDF for all the datasets. You can split the datasets into a number of pages, accessed using the ‘page’ parameter. For example, access page 2 by appending <code>?page=2</code> to the URL.</p>
+<h3 id="data-json">data.json</h3>
+<p>The data.json format has the <a href="dcat">same fields as DCAT</a>, but expresses them more clearly.</p>
+<p>You must give the harvester the URL that returns a JSON list containing the datasets. You can split the datasets into a number of pages, accessed using the ‘page’ parameter. For example, access page 2 by appending <code>?page=2</code> to the URL.</p>
+<h3 id="ckan-files">CKAN files</h3>
+<p>Comprehensive Knowledge Archive Network (CKAN) is an web-based open source management system for storing and distributing open data. Data.gov.uk uses CKAN version 2.7.</p>
+<p>The CKAN harvester needs the URL of the CKAN home page, from where the harvester can find API functions.</p>
+<p>Data.gov.uk accepts most common CKAN fields, but has some customisations. For more information, refer to:</p>
+
+<ul>
+<li>the <a href="ckan">guidance on accepted CKAN fields</a></li>
+<li>official <a href="https://docs.ckan.org/en/2.7/">CKAN documentation</a></li>
+</ul>
+<h3 id="inventory">Inventory</h3>
+<p>Created for the Local Government Association (LGA), the Inventory format is only suitable for local authority data. DataShare created the format and ESD provides an <a href="http://schemas.opendata.esd.org.uk/Inventory">XML schema</a> which will check if there are any errors in the inventory before it is harvested.</p>
+<p>The data.gov.uk harvester needs the full URL for the inventory XML file to work.</p>
+<p>Refer to the <a href="http://schemas.esd.org.uk/inventory/InventoryGuidance.pdf">Inventory documentation for more information</a>.</p>
+<h3 id="csw-server-gemini">CSW Server (GEMINI)</h3>
+<p><a href="https://en.wikipedia.org/wiki/Catalog_Service_for_the_Web">Catalog Service for the Web (CSW)</a>, is an open standard by the OGC, for exposing geo-spatial metadata on the web. It’s full of features and complexity, so is most suitable for GIS systems like <a href="http://geonetwork-opensource.org/">GeoNetwork</a> or ArcGIS.</p>
+<p>While you can publish non-spatial data with CSW, data.gov.uk currently only accepts
+GEMINI metadata which does not support non-spatial data.</p>
+<p>Data.gov.uk and INSPIRE use CSW version 2.0.2.</p>
+<p>CSW allows datasets in several XML-based formats, but data.gov.uk requires datasets in GEMINI/ISO19139 format.</p>
+<p>For more information, see the:</p>
+
+<ul>
+<li>guidance on <a href="gemini">GEMINI and ISO 19139 metadata</a></li>
+<li><a href="/static/DMS_Collection_Interface_Specification_10.pdf">Discovery Metadata Service Collection Information Specification (PDF)</a></li>
+</ul>
+<h3 id="web-accessible-folder-waf-gemini">Web Accessible Folder (WAF) (GEMINI)</h3>
+<p>A WAF is a web page with links to GEMINI/ISO19139 XML files. This means you can place your XML files in a folder on your server and tell Apache to serve it with a directory listing.</p>
+<p>However, the HTML must not have a path specified in it. The XML files must be at the same path (folder) as the HTML page. This allows you to have other links on the web page, such as to your home page, which the harvester ignores.</p>
+<p>For example, the source of the WAF web page may look similar to the following:</p>
+<div class="highlight"><pre class="highlight html" tabindex="0"><code><span class="nt">&lt;html&gt;</span>
+ <span class="nt">&lt;body&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"rivers.xml"</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"fish-population.xml"</span><span class="nt">/&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"nitrogen-levels.xml"</span><span class="nt">/&gt;</span>
+ <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div><p>Make sure the links do not have a path (have slashes) like this:</p>
+<div class="highlight"><pre class="highlight html" tabindex="0"><code>  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"/data/rivers.xml"</span><span class="nt">/&gt;</span>
+</code></pre></div><p>Refer to the <a href="/static/DMS_Collection_Interface_Specification_10.pdf">Discovery Metadata Service Collection Information Specification (PDF)</a> for more information about WAF.</p>
+<p>data.gov.uk requires the metadata is in GEMINI/ISO19139 format. For more information, see <a href="gemini">GEMINI and ISO 19139 metadata</a>.</p>
+<h3 id="single-file-gemini">Single File (GEMINI)</h3>
+<p>If you only have one dataset record to publish, or want to test a record without putting it in a CSW or WAF, you can point the harvester directly at the URL that returns the GEMINI/ISO19139 record (XML file).</p>
+<p>Data.gov.uk requires the metadata is in GEMINI/ISO19139 format. For more information, see <a href="gemini">GEMINI and ISO 19139 metadata</a>.</p>
+<h2 id="set-up-the-harvester">Set up the harvester</h2>
+<p>To set up the harvester, you need sign into data.gov.uk with an editor or admin account and have published the dataset(s) somewhere publicly.</p>
+
+<ol>
+<li>Once you’re signed into data.gov.uk select <strong>Harvest</strong>.</li>
+<li>The page will show all current harvests. Select <strong>Add Harvest Source</strong>.</li>
+<li>Add the URL to the dataset you want to harvest and complete the fields.</li>
+<li>Choose how often you want to harvest the dataset by selecting <strong>Update frequency</strong>.</li>
+<li>Select <strong>Save</strong>.</li>
+</ol>
+<h2 id="test-the-harvester">Test the harvester</h2>
+<p>To check if the harvester is working correctly, you can review information about when a dataset was last harvested, the specific harvester jobs, and any errors that may have occurred.</p>
+
+<ol>
+<li>Sign into the <a href="https://ckan.publishing.service.gov.uk/">Data Publisher</a>.</li>
+<li>Select <strong>Harvest</strong>.</li>
+<li>Select the dataset you want to check.</li>
+<li>Select <strong>Manage</strong>.</li>
+</ol>
+<p>From the next page you can:</p>
+
+<ul>
+<li>view the source of the harvest</li>
+<li>trigger a reharvest</li>
+<li>view the harvest jobs and any errors</li>
+<li>view a full report of all harvest jobs</li>
+<li>edit the dataset information including the harvest frequency</li>
+</ul>
