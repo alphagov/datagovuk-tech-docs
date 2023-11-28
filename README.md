@@ -69,34 +69,11 @@ You should now be able to view a live preview at http://localhost:4567.
 
 ## Building and Deploying
 
-The generated documentation is hosted on the [GOV.UK PaaS][paas].
+The generated documentation is hosted on GitHub Pages.
 
-Deployment is a manual process. First, make sure you have and up-to-date copy
-of the repository. Next, you'll need to build the static HTML files:
-
-```
-bundle exec middleman build
-```
-
-This will create a `build` subfolder in the application folder which contains
-the HTML and asset files ready to be published.
-
-To publish the changes, make sure you have the [Cloud Foundry command line
-tools][cf-cli] installed, then [sign in to Cloud Foundry][paas-signin], using
-the Ireland location.
-
-From the menus that are displayed once you've logged in, select the
-`gds-data-gov-uk` organisation, and the `data-gov-uk` space.
-
-Finally, deploy your changes by running:
-
-`cf push -f manifest.yml`
-
-The documentation is cached by CloudFront, so it may take some time for the
-updates to appear after deployment.
+Deployment is an automatic process. Once a PR is merged the `deploy` pipeline will deploy the site to 
+GitHub Pages and create a commit on the [gh-pages][gh-pages] branch.
 
 [rvm]: https://www.ruby-lang.org/en/documentation/installation/#managers
 [bundler]: http://bundler.io/
-[paas]: https://www.cloud.service.gov.uk/
-[cf-cli]: https://docs.cloud.service.gov.uk/get_started.html#set-up-the-cloud-foundry-command-line
-[paas-signin]: https://docs.cloud.service.gov.uk/get_started.html#sign-in-to-cloud-foundry
+[gh-pages]: https://github.com/alphagov/datagovuk-tech-docs/tree/gh-pages
