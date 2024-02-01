@@ -5,9 +5,9 @@ Once you have published a dataset, you can amend its metadata such as the descri
 1. Sign into the [Data Publisher](https://ckan.publishing.service.gov.uk/) and find the dataset you want to amend.
 1. Select **Manage**.
 
-You can then either edit the metadata for the dataset or select **Add data** to add additional information to add new data to an existing dataset.
+You can then either edit the metadata for the dataset or select **Add data** to add new data to an existing dataset.
 
-Do not create new datasets for data you publish regularly, for example monthly spend data. Instead, create one dataset and add new data to it. This will help users find all monthly datasets published together rather than having to search through a large number of similar datasets.
+Do not create new datasets for data you publish regularly, for example monthly spend data. Instead, create a single dataset and add new data to it. This will help users find all monthly datasets published together rather than having to search through a large number of similar datasets.
 
 ## Unpublishing data
 
@@ -18,4 +18,4 @@ However, you may want to remove datasets that are:
 * duplicates - if there are 2 datasets covering the same data
 * test datasets - if you’ve accidentally published some trial data
 
-Only the data.gov.uk team can delete a dataset. If you want to delete a dataset, [send us a data request](https://data.gov.uk/support).
+Only the data.gov.uk team can delete a dataset. If you want to delete a dataset, [send us a request](https://data.gov.uk/support).

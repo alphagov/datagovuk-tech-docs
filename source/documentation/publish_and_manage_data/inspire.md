@@ -26,10 +26,6 @@ The INSPIRE legislation requires most geo-spatial data to be published according
 * metadata records
 * storing data in a GIS (Geographic Information System)
 
-### Metadata records
-
-Metadata records are created at the [UK Location Metadata Editor website](https://locationmde.data.gov.uk/). You fill in the web form to create each record and the website publishes them at a 'WAF service' which data.gov.uk harvests. Geographical software is also required to provide the data to users in a way that fulfils the INSPIRE 'View' and 'Download' requirements. For more information, consult the [User Guide to the UK Location Metadata Editor](https://data.gov.uk/sites/default/files/library/Metadata%20Editor%20User%20Guide.pdf)
-
 ### Geographic Information System (GIS)
 
 You can choose to store data in a GIS (Geographic Information System). This is common for departments and local authorities that have an established geo-spatial data capability. The most commonly used GIS for data.gov.uk is the open source [GeoNetwork](http://geonetwork-opensource.org/), and commercial ones such as ArcGIS are also in use. The GIS provides a 'WMS service' for users to preview the data and 'WFS service' or 'Atom feed' for users to download the data. The GIS also publishes the metadata records for the datasets at a 'CSW service', which data.gov.uk is then configured to harvest from.
@@ -39,10 +35,3 @@ You can choose to store data in a GIS (Geographic Information System). This is c
 Getting your metadata records into data.gov.uk is done by [setting up a data.gov.uk 'harvester'](../harvest_data). You should run the harvester regularly, to ensure that data.gov.uk stays in sync when the publisher updates the records.
 
 Occasionally publishers have made the mistake of using an existing record as a template and simply using a text editor to change the key fields. The main problem with this is that you need to generate a new `gmd:fileIdentifier`, or data.gov.uk will harvest it and overwrite the record that was the template! To generate a new UUID (universally unique identifier) for this field, just visit <https://www.uuidgenerator.net/>.
-
-## Map preview
-
-In order to show the map preview, and the link to the map preview, the metadata needs to:
-
-- Follow the [WMS](https://en.wikipedia.org/wiki/Web_Map_Service) protocol version 1.3.0
-- Have resource type set to `service` and not `dataset`
