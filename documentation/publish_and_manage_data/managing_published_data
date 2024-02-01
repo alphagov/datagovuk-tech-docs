@@ -5,8 +5,8 @@
 <li>Sign into the <a href="https://ckan.publishing.service.gov.uk/">Data Publisher</a> and find the dataset you want to amend.</li>
 <li>Select <strong>Manage</strong>.</li>
 </ol>
-<p>You can then either edit the metadata for the dataset or select <strong>Add data</strong> to add additional information to add new data to an existing dataset.</p>
-<p>Do not create new datasets for data you publish regularly, for example monthly spend data. Instead, create one dataset and add new data to it. This will help users find all monthly datasets published together rather than having to search through a large number of similar datasets.</p>
+<p>You can then either edit the metadata for the dataset or select <strong>Add data</strong> to add new data to an existing dataset.</p>
+<p>Do not create new datasets for data you publish regularly, for example monthly spend data. Instead, create a single dataset and add new data to it. This will help users find all monthly datasets published together rather than having to search through a large number of similar datasets.</p>
 <h2 id="unpublishing-data">Unpublishing data</h2>
 <p>In the interests of transparency, you should not delete datasets from data.gov.uk. Old datasets can help people compare trends over time, track corrections, and see historical data from organisations that do not exist anymore.</p>
 <p>However, you may want to remove datasets that are:</p>
@@ -15,4 +15,4 @@
 <li>duplicates - if there are 2 datasets covering the same data</li>
 <li>test datasets - if you’ve accidentally published some trial data</li>
 </ul>
-<p>Only the data.gov.uk team can delete a dataset. If you want to delete a dataset, <a href="https://data.gov.uk/support">send us a data request</a>.</p>
+<p>Only the data.gov.uk team can delete a dataset. If you want to delete a dataset, <a href="https://data.gov.uk/support">send us a request</a>.</p>
