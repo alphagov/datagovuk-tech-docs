@@ -55,16 +55,17 @@ You must fill in the [standard organogram template](https://ckan.publishing.serv
 Follow these instructions if your organisation does not already have an organogram dataset. The instructions help you publish a new dataset containing an organogram. You can then add future organograms to this dataset.
 
 1. Create your organogram using the [standard organogram template](https://ckan.publishing.service.gov.uk/publisher-files/Blank_Organogram_Template_latest.xls).
-2. Sign into the [Data Publisher](https://ckan.publishing.service.gov.uk/).
-3. Select **Datasets**.
-4. Select **Add dataset**.
-5. Complete the fields with information about the organogram.
-6. Select the appropriate schema for your organogram. Use:
+1. Sign into the [Data Publisher](https://ckan.publishing.service.gov.uk/).
+1. Select **Datasets**.
+1. Select **Add dataset**.
+1. Complete the fields with information about the organogram.
+1. Select the appropriate schema for your organogram. Use:
   * **Organisation structure including roles roles & salaries** for central government organograms
   * **Organisation structure (for LGTC by LGA)** for local authority organograms
-7. Select **Next**.
-8. Upload or link to the organogram and complete the remaining fields.
-9. Select **Publish**.
+1. Select **Next**.
+1. Upload or link to the organogram and complete the remaining fields.
+1. Select **Publish**.
+1. If an error message appears, read it carefully as errors should be self-explanatory based on validation rules set in the template spreadsheet. Fix any errors in your spreadsheet and click Publish again.
 
 A new dataset containing the organogram will be created. Add all future organograms for this organisation to this dataset.
 
@@ -81,6 +82,7 @@ If your organisation already has an organogram dataset, you should add all new o
 1. Select **Add new resource**.
 1. Link or upload the data.
 1. Select **Publish**.
+1. If an error message appears, read it carefully as errors should be self-explanatory based on validation rules set in the template spreadsheet. Fix any errors in your spreadsheet and click Publish again.
 
 The new organogram will be added to the existing dataset.
 
