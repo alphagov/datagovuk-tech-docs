@@ -48,13 +48,13 @@ You must publish the data 4 times a year. Take a ‘snapshot’ of the roles on:
 
 ### What to include
 
-You must fill in the [standard organogram template](https://ckan.publishing.service.gov.uk/publisher-files/Blank_Organogram_Template_latest.xls) with the details of your department's Senior Civil Service (SCS) pay band 1 and 2 employees.
+You must use the [standard organogram template](https://ckan.publishing.service.gov.uk/publisher-files/Blank_Organogram_Template_latest.xls), adding the details of your department's Senior Civil Service (SCS) pay band 1 and 2 employees.
 
 ### Publish an organogram dataset
 
 Follow these instructions if your organisation does not already have an organogram dataset. The instructions help you publish a new dataset containing an organogram. You can then add future organograms to this dataset.
 
-1. Create your organogram using the [standard organogram template](https://ckan.publishing.service.gov.uk/publisher-files/Blank_Organogram_Template_latest.xls).
+1. Create your organogram using the [standard organogram template](https://ckan.publishing.service.gov.uk/publisher-files/Blank_Organogram_Template_latest.xls). If you do not use this template, or if you change it (such as removing or adding columns, or renaming them), you'll see an error and your publishing will not work.
 1. Sign into the [Data Publisher](https://ckan.publishing.service.gov.uk/).
 1. Select **Datasets**.
 1. Select **Add dataset**.
@@ -73,6 +73,7 @@ A new dataset containing the organogram will be created. Add all future organogr
 
 If your organisation already has an organogram dataset, you should add all new organograms to that dataset.
 
+1. Create your organogram using the [standard organogram template](https://ckan.publishing.service.gov.uk/publisher-files/Blank_Organogram_Template_latest.xls). If you do not use this template, or if you change it (such as removing or adding columns, or renaming them), you'll see an error and your publishing will not work.
 1. Sign into the [Data Publisher](https://ckan.publishing.service.gov.uk/).
 1. Select **Datasets**.
 1. Search for the organogram dataset of your organisation.
