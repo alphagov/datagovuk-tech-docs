@@ -21,7 +21,7 @@ jobs:
     steps:
       - name: Set commit message up front
         id: commit_message_writer
-        run: echo "::set-output name=commit_message::Deploy via merge"
+        run: echo "commit_message=Deploy via merge" >> "$GITHUB_OUTPUT"
 
       - name: Checkout repository
         uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
@@ -38,7 +38,7 @@ jobs:
         run: bundle exec middleman build
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
