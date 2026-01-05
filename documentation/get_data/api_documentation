@@ -73,7 +73,4 @@
 <td>https://data.gov.uk/api/action/organization_show?id=cabinet-office&amp;include_datasets=false</td>
 </tr>
         </table>
-      </div><h2 id="send-a-data-request">Send a data request</h2>
-<p>If you cannot find the data you need, you can ask government to publish a dataset that is not yet published on data.gov.uk.</p>
-<p><a href="https://data.gov.uk/support">Send a data request</a> to the data.gov.uk team and they will forward it to the relevant government department.</p>
-<p>For requests and questions about a dataset already on data.gov.uk, you can contact the publisher directly if they’ve provided their contact details next to the dataset.</p>
+      </div><p>For requests and questions about a dataset on data.gov.uk, you should contact the publisher directly if they’ve provided their contact details next to the dataset.</p>
