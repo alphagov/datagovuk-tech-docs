@@ -48,10 +48,5 @@ Data.gov.uk uses CKAN `organizations` to store what is shown as ‘publishers’
 | # `organization_list`                     | List of publishers                   | https://data.gov.uk/api/action/organization_list |
 | # `organization_show?id=<PUBLISHER-NAME>` | Information about a single publisher | https://data.gov.uk/api/action/organization_show?id=cabinet-office&include_datasets=false |
 
-## Send a data request
 
-If you cannot find the data you need, you can ask government to publish a dataset that is not yet published on data.gov.uk.
-
-[Send a data request](https://data.gov.uk/support) to the data.gov.uk team and they will forward it to the relevant government department.
-
-For requests and questions about a dataset already on data.gov.uk, you can contact the publisher directly if they’ve provided their contact details next to the dataset.
+For requests and questions about a dataset on data.gov.uk, you should contact the publisher directly if they’ve provided their contact details next to the dataset.
