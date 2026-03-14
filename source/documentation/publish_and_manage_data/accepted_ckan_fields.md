@@ -2,7 +2,7 @@
 
 Refer to the [CKAN documentation](https://ckan.readthedocs.io/en/latest/) for up to date guidance on using CKAN.
 
-This guidance explains the CKAN fields data.gov.uk accepts.
+This guidance explains the CKAN fields the data.gov.uk directory accepts.
 
 ## Core dataset fields
 
