@@ -28,7 +28,7 @@ The INSPIRE legislation requires most geo-spatial data to be published according
 
 ### Geographic Information System (GIS)
 
-You can choose to store data in a GIS (Geographic Information System). This is common for departments and local authorities that have an established geo-spatial data capability. The most commonly used GIS for data.gov.uk is the open source [GeoNetwork](http://geonetwork-opensource.org/), and commercial ones such as ArcGIS are also in use. The GIS provides a 'WMS service' for users to preview the data and 'WFS service' or 'Atom feed' for users to download the data. The GIS also publishes the metadata records for the datasets at a 'CSW service', which data.gov.uk is then configured to harvest from.
+You can choose to store data in a GIS (Geographic Information System). This is common for departments and local authorities that have an established geo-spatial data capability. The most commonly used GIS for data.gov.uk is the open source [GeoNetwork](http://geonetwork-opensource.org/), and commercial ones such as ArcGIS are also in use. The GIS provides a 'WMS service' for users to preview the data and 'WFS service' or 'Atom feed' for users to download the data. The GIS also publishes the metadata records for the datasets at a 'CSW service', which the data.gov.uk directory is then configured to harvest from.
 
 ## Harvesting metadata records
 
