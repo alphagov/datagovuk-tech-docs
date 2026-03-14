@@ -1,6 +1,6 @@
 # API documentation
 
-The data.gov.uk directory API uses the [CKAN API and its extensions](https://docs.ckan.org/en/2.9/api/index.html). [Curated data pages](https://data.gov.uk/collections) are not yet available via the API. [Check out the roadmap](https://data.gov.uk/roadmap) to learn more about upcoming changes to data.gov.uk.
+The data.gov.uk directory API uses the [CKAN API and its extensions](https://docs.ckan.org/en/2.9/api/index.html). [Curated collections](https://data.gov.uk) are not yet available via the API. [Check out the roadmap](https://data.gov.uk/roadmap) to learn more about upcoming changes to data.gov.uk.
 
 You do not need an API key to use the API and there are no rate limits.
 
