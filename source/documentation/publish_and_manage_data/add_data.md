@@ -1,6 +1,6 @@
 # Add datasets manually
 
-If you do not want to [automatically harvest datasets](../harvest_data), you can add a dataset to data.gov.uk manually.
+If you do not want to [automatically harvest datasets](../harvest_data), you can add a dataset to the data.gov.uk directory manually.
 
 >You cannot use the form for publishing INSPIRE/Location data. See the guidance on [harvesting INSPIRE data](../inspire) for more information.
 
@@ -28,7 +28,7 @@ Once you have added information about the dataset, you can add the data itself.
 
 Organograms are a description of the roles and salaries in the UK government at a particular point in time. They are an important publication in the government's effort to improve transparency of how the public sector manages resources.
 
-Central government and agencies must publish organograms of all staff positions on data.gov.uk every 3 months. Organograms are published:
+Central government and agencies must publish organograms of all staff positions on the data.gov.uk directory every 3 months. Organograms are published:
 
 * in a [collection of visualisations](https://data.gov.uk/search?q=organogram)
 * as raw data in CSV format
@@ -89,11 +89,11 @@ The new organogram will be added to the existing dataset.
 
 ## Add spend data
 
-Central and local government bodies (including NHS) must publish the details of their expenditure transactions every month. This guidance explains how to add these details to data.gov.uk.
+Central and local government bodies (including NHS) must publish the details of their expenditure transactions every month. This guidance explains how to add these details to the data.gov.uk directory.
 
 ### About spend data
 
-Central government must publish spend data one month in arrears. HM Treasury provides [advice on publishing spend over £25,000](https://www.gov.uk/government/publications/guidance-for-publishing-spend-over-25000), including templates and published examples.
+Central government must publish spend data every month in arrears. HM Treasury provides [advice on publishing spend over £25,000](https://www.gov.uk/government/publications/guidance-for-publishing-spend-over-25000), including templates and published examples.
 
 Local government must publish information every month or as soon as it becomes available. The [local government transparency code](https://www.gov.uk/government/publications/local-government-transparency-code-2015) explains what local authorities should publish and when.
 
