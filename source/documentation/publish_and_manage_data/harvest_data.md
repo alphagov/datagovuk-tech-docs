@@ -1,6 +1,6 @@
 # Harvest data
 
-To use the data.gov.uk harvester, you must publish the datasets on the internet and then set up the harvester.
+To use the data.gov.uk directory harvester, you must publish the datasets on the internet and then set up the harvester.
 
 Metadata fields from harvested datasets will be publicly available to users - including (where provided to us) personal information such as contact details for responsible parties.
 
@@ -11,7 +11,7 @@ Metadata fields from harvested datasets will be publicly available to users - in
 
 ## Create a metadata record
 
-To use the data.gov.uk harvester, you must host the dataset publicly on the internet for the harvester to find.
+To use the data.gov.uk directory harvester, you must host the dataset publicly on the internet for the harvester to find.
 
 You must describe each dataset in a ‘metadata record’ and give information about the dataset such as:
 
@@ -19,7 +19,7 @@ You must describe each dataset in a ‘metadata record’ and give information a
 * description
 * link to download the data file
 
-The harvester will display the title and description from the metadata record on data.gov.uk. This information helps users find data so make sure you [use popular keywords](https://www.gov.uk/guidance/content-design/data-and-analytics#how-to-optimise-your-content-for-search).
+The harvester will display the title and description from the metadata record on [the data.gov.uk directory](https://data.gov.uk/search). This information helps users find data so make sure you [use popular keywords](https://www.gov.uk/guidance/content-design/data-and-analytics#how-to-optimise-your-content-for-search).
 
 ### Complete the title field
 
@@ -57,9 +57,9 @@ If a dataset falls under the [INSPIRE regulation](../inspire), you must publish 
 
 ### DCAT/data.json fields
 
-When using [DCAT](https://www.w3.org/TR/vocab-dcat/), it’s common to use additional fields or predicates from other vocabularies. Data.gov.uk will accept [additional fields or predicates](dcat) from other vocabularies.
+When using [DCAT](https://www.w3.org/TR/vocab-dcat/), it’s common to use additional fields or predicates from other vocabularies. The data.gov.uk directory will accept [additional fields or predicates](dcat) from other vocabularies.
 
-DCAT is suitable for linked data systems, but you may find data.json is more suitable for less complex datasets. The data.json format has the fields data.gov.uk needs from DCAT, but removes the namespace prefixes and uses the well-known JSON syntax. This has the benefits of DCAT but is generally easier to produce.  
+DCAT is suitable for linked data systems, but you may find data.json is more suitable for less complex datasets. The data.json format has the fields the data.gov.uk directory needs from DCAT, but removes the namespace prefixes and uses the well-known JSON syntax. This has the benefits of DCAT but is generally easier to produce.  
 
 Although CKAN supports DCAT for the core fields, it is recommended to harvest from a CKAN using the CKAN harvester. This is because custom fields often do not map well to DCAT fields and can vary from portal to portal.
 
@@ -77,7 +77,7 @@ Comprehensive Knowledge Archive Network (CKAN) is an web-based open source manag
 
 The CKAN harvester needs the URL of the CKAN home page, from where the harvester can find API functions.
 
-Data.gov.uk accepts most common CKAN fields, but has some customisations. For more information, refer to:
+The data.gov.uk directory accepts most common CKAN fields, but has some customisations. For more information, refer to:
 
 * the [guidance on accepted CKAN fields](ckan)
 * official [CKAN documentation](https://docs.ckan.org/en/2.7/)
@@ -86,7 +86,7 @@ Data.gov.uk accepts most common CKAN fields, but has some customisations. For mo
 
 Created for the Local Government Association (LGA), the Inventory format is only suitable for local authority data. DataShare created the format and ESD provides an [XML schema](http://schemas.opendata.esd.org.uk/Inventory) which will check if there are any errors in the inventory before it is harvested.  
 
-The data.gov.uk harvester needs the full URL for the inventory XML file to work.
+The data.gov.uk directory harvester needs the full URL for the inventory XML file to work.
 
 Refer to the [Inventory documentation for more information](http://schemas.esd.org.uk/inventory/InventoryGuidance.pdf).
 
@@ -94,12 +94,12 @@ Refer to the [Inventory documentation for more information](http://schemas.esd.o
 
 [Catalog Service for the Web (CSW)](https://en.wikipedia.org/wiki/Catalog_Service_for_the_Web), is an open standard by the OGC, for exposing geo-spatial metadata on the web. It’s full of features and complexity, so is most suitable for GIS systems like [GeoNetwork](http://geonetwork-opensource.org/) or ArcGIS.
 
-While you can publish non-spatial data with CSW, data.gov.uk currently only accepts
+While you can publish non-spatial data with CSW, the data.gov.uk directory currently only accepts
 GEMINI metadata which does not support non-spatial data.
 
-Data.gov.uk and INSPIRE use CSW version 2.0.2.
+The data.gov.uk directory and INSPIRE use CSW version 2.0.2.
 
-CSW allows datasets in several XML-based formats, but data.gov.uk requires datasets in GEMINI/ISO19139 format.
+CSW allows datasets in several XML-based formats, but the data.gov.uk directory requires datasets in GEMINI/ISO19139 format.
 
 For more information, see the:
 
@@ -132,7 +132,7 @@ Make sure the links do not have a path (have slashes) like this:
 
 Refer to the [Discovery Metadata Service Collection Information Specification (PDF)](/static/DMS_Collection_Interface_Specification_10.pdf) for more information about WAF.
 
-data.gov.uk requires the metadata is in GEMINI/ISO19139 format. For more information, see [GEMINI and ISO 19139 metadata](gemini).
+The data.gov.uk directory requires the metadata is in GEMINI/ISO19139 format. For more information, see [GEMINI and ISO 19139 metadata](gemini).
 
 ### Single File (GEMINI)
 
@@ -142,9 +142,9 @@ Data.gov.uk requires the metadata is in GEMINI/ISO19139 format. For more informa
 
 ## Set up the harvester
 
-To set up the harvester, you need sign into data.gov.uk with an editor or admin account and have published the dataset(s) somewhere publicly.
+To set up the harvester, you need sign into the data.gov.uk directory with an editor or admin account and have published the dataset(s) somewhere publicly.
 
-1. Once you’re signed into data.gov.uk select **Harvest**.
+1. Once you’re signed into the data.gov.uk directory select **Harvest**.
 1. The page will show all current harvests. Select **Add Harvest Source**.
 1. Add the URL to the dataset you want to harvest and complete the fields.
 1. Choose how often you want to harvest the dataset by selecting **Update frequency**.
