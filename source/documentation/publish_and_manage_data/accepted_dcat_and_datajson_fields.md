@@ -1,6 +1,6 @@
 # Accepted DCAT and data.json fields
 
-When using or data.json, it’s common to use additional fields from other vocabularies. This guidance explains the fields data.gov.uk will accept.
+When using or data.json, it’s common to use additional fields from other vocabularies. This guidance explains the fields the data.gov.uk directory will accept.
 
 | data.json field     | DCAT predicate | Example value | Comments |
 |---------------------|----------------|---------------|----------|
