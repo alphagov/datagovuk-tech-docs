@@ -32,6 +32,6 @@ You can choose to store data in a GIS (Geographic Information System). This is c
 
 ## Harvesting metadata records
 
-Getting your metadata records into data.gov.uk is done by [setting up a data.gov.uk 'harvester'](../harvest_data). You should run the harvester regularly, to ensure that data.gov.uk stays in sync when the publisher updates the records.
+Getting your metadata records into the data.gov.uk directory is done by [setting up a data.gov.uk 'harvester'](../harvest_data). You should run the harvester regularly, to ensure that the directory stays in sync when the publisher updates the records.
 
 Occasionally publishers have made the mistake of using an existing record as a template and simply using a text editor to change the key fields. The main problem with this is that you need to generate a new `gmd:fileIdentifier`, or data.gov.uk will harvest it and overwrite the record that was the template! To generate a new UUID (universally unique identifier) for this field, just visit <https://www.uuidgenerator.net/>.
