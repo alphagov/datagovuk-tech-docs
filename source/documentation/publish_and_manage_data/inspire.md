@@ -28,10 +28,10 @@ The INSPIRE legislation requires most geo-spatial data to be published according
 
 ### Geographic Information System (GIS)
 
-You can choose to store data in a GIS (Geographic Information System). This is common for departments and local authorities that have an established geo-spatial data capability. The most commonly used GIS for data.gov.uk is the open source [GeoNetwork](http://geonetwork-opensource.org/), and commercial ones such as ArcGIS are also in use. The GIS provides a 'WMS service' for users to preview the data and 'WFS service' or 'Atom feed' for users to download the data. The GIS also publishes the metadata records for the datasets at a 'CSW service', which data.gov.uk is then configured to harvest from.
+You can choose to store data in a GIS (Geographic Information System). This is common for departments and local authorities that have an established geo-spatial data capability. The most commonly used GIS for data.gov.uk is the open source [GeoNetwork](http://geonetwork-opensource.org/), and commercial ones such as ArcGIS are also in use. The GIS provides a 'WMS service' for users to preview the data and 'WFS service' or 'Atom feed' for users to download the data. The GIS also publishes the metadata records for the datasets at a 'CSW service', which the data.gov.uk directory is then configured to harvest from.
 
 ## Harvesting metadata records
 
-Getting your metadata records into data.gov.uk is done by [setting up a data.gov.uk 'harvester'](../harvest_data). You should run the harvester regularly, to ensure that data.gov.uk stays in sync when the publisher updates the records.
+Getting your metadata records into the data.gov.uk directory is done by [setting up a data.gov.uk 'harvester'](../harvest_data). You should run the harvester regularly, to ensure that the directory stays in sync when the publisher updates the records.
 
 Occasionally publishers have made the mistake of using an existing record as a template and simply using a text editor to change the key fields. The main problem with this is that you need to generate a new `gmd:fileIdentifier`, or data.gov.uk will harvest it and overwrite the record that was the template! To generate a new UUID (universally unique identifier) for this field, just visit <https://www.uuidgenerator.net/>.
