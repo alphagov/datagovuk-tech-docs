@@ -1,6 +1,6 @@
 # Harvest or add data
 
-You can publish datasets to data.gov.uk by:
+You can publish datasets to the data.gov.uk directory by:
 
 * using software to [harvest datasets](harvest_data/#harvest-data)
 * [adding datasets manually](add_data/#add-data-manually)
