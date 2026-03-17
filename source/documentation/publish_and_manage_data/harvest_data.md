@@ -19,7 +19,7 @@ You must describe each dataset in a ‘metadata record’ and give information a
 * description
 * link to download the data file
 
-The harvester will display the title and description from the metadata record on [the data.gov.uk directory](https://data.gov.uk/search). This information helps users find data so make sure you [use popular keywords](https://www.gov.uk/guidance/content-design/data-and-analytics#how-to-optimise-your-content-for-search).
+The harvester will display the title and description from the metadata record on the [data.gov.uk directory](https://data.gov.uk/search). This information helps users find data so make sure you [use popular keywords](https://www.gov.uk/guidance/content-design/data-and-analytics#how-to-optimise-your-content-for-search).
 
 ### Complete the title field
 
@@ -132,7 +132,7 @@ Make sure the links do not have a path (have slashes) like this:
 
 Refer to the [Discovery Metadata Service Collection Information Specification (PDF)](/static/DMS_Collection_Interface_Specification_10.pdf) for more information about WAF.
 
-The data.gov.uk directory requires the metadata is in GEMINI/ISO19139 format. For more information, see [GEMINI and ISO 19139 metadata](gemini).
+The data.gov.uk directory requires the metadata to be in GEMINI/ISO19139 format. For more information, see [GEMINI and ISO 19139 metadata](gemini).
 
 ### Single File (GEMINI)
 

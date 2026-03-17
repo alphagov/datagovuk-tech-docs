@@ -13,4 +13,4 @@ Find out how to:
 * [harvest or add data](harvest_or_add_data/#harvest-or-add-data)
 * [manage published data](managing_published_data/#managing-published-data)
 
-If you’d like to showcase your data by making it part of [the new, curated data collections](https://data.gov.uk), you can express your interest through our [feedback form](https://forms.office.com/e/9V26PNFQaR).
+If you’d like to showcase your data by making it part of the new [curated data collections](https://data.gov.uk), you can express your interest through our [feedback form](https://forms.office.com/e/9V26PNFQaR).

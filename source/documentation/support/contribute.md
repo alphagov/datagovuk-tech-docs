@@ -5,5 +5,5 @@ Data.gov.uk’s code is public and freely available under an MIT License and the
 We welcome contributions for code and documentation repositories:
 
 * [CKAN extension for data.gov.uk](https://github.com/alphagov/ckanext-datagovuk/)
-* [Data directory](https://github.com/alphagov/datagovuk_find)
-* [Data.gov.uk documentation](https://github.com/alphagov/datagovuk-tech-docs)
+* [data.gov.uk directory](https://github.com/alphagov/datagovuk_find)
+* [data.gov.uk documentation](https://github.com/alphagov/datagovuk-tech-docs)

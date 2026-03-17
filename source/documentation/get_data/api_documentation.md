@@ -49,4 +49,4 @@ Data.gov.uk uses CKAN `organizations` to store what is shown as ‘publishers’
 | # `organization_show?id=<PUBLISHER-NAME>` | Information about a single publisher | https://data.gov.uk/api/action/organization_show?id=cabinet-office&include_datasets=false |
 
 
-For requests and questions about a dataset on [the data.gov.uk directory](https://data.gov.uk/search), you should contact the publisher directly if they’ve provided their contact details next to the dataset.
+For requests and questions about a dataset on the [the data.gov.uk directory](https://data.gov.uk/search), you should contact the publisher directly if they’ve provided their contact details next to the dataset.

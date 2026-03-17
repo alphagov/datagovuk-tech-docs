@@ -1,6 +1,6 @@
 # Get and manage accounts
 
-There are two levels of access on the data.gov.uk directory: editor and administrator (admin).
+There are 2 levels of access on the data.gov.uk directory: editor and administrator (admin).
 
 Editors are able to publish and manage datasets associated with their organisation (for example, a local authority or central government department). Editors and admins can be in multiple organisations.
 
@@ -14,7 +14,7 @@ Admins have the same abilities as editors but can also:
 
 ### Get invited by an admin
 
-To get an account, you should ask an existing admin for your organisation to invite you. This is the fastest and most reliable way to gain access. The admin can follow these [instructions for adding/removing accounts](#add-or-remove-editors-and-admins).
+To get an account, you should ask an existing admin for your organisation to invite you. This is the fastest and most reliable way to gain access. The admin can follow the [instructions for adding/removing accounts](#add-or-remove-editors-and-admins).
 
 ### Register for an account
 
