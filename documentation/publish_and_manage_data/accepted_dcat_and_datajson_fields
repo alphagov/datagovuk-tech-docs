@@ -1,5 +1,5 @@
 <h1 id="accepted-dcat-and-data-json-fields">Accepted DCAT and data.json fields</h1>
-<p>When using or data.json, it’s common to use additional fields from other vocabularies. This guidance explains the fields data.gov.uk will accept.</p>
+<p>When using or data.json, it’s common to use additional fields from other vocabularies. This guidance explains the fields that the data.gov.uk directory will accept.</p>
 <div class="table-container">
         <table>
           <tr>

@@ -1,5 +1,5 @@
 <h1 id="add-datasets-manually">Add datasets manually</h1>
-<p>If you do not want to <a href="../harvest_data">automatically harvest datasets</a>, you can add a dataset to data.gov.uk manually.</p>
+<p>If you do not want to <a href="../harvest_data">automatically harvest datasets</a>, you can add a dataset to the data.gov.uk directory manually.</p>
 
 <blockquote>
 <p>You cannot use the form for publishing INSPIRE/Location data. See the guidance on <a href="../inspire">harvesting INSPIRE data</a> for more information.</p>
@@ -28,7 +28,7 @@
 </blockquote>
 <h2 id="publishing-organograms">Publishing organograms</h2>
 <p>Organograms are a description of the roles and salaries in the UK government at a particular point in time. They are an important publication in the government&rsquo;s effort to improve transparency of how the public sector manages resources.</p>
-<p>Central government and agencies must publish organograms of all staff positions on data.gov.uk every 3 months. Organograms are published:</p>
+<p>Central government and agencies must publish organograms of all staff positions on the data.gov.uk directory every 3 months. Organograms are published:</p>
 
 <ul>
 <li>in a <a href="https://data.gov.uk/search?q=organogram">collection of visualisations</a></li>
@@ -86,9 +86,9 @@
 </ol>
 <p>The new organogram will be added to the existing dataset.</p>
 <h2 id="add-spend-data">Add spend data</h2>
-<p>Central and local government bodies (including NHS) must publish the details of their expenditure transactions every month. This guidance explains how to add these details to data.gov.uk.</p>
+<p>Central and local government bodies (including NHS) must publish the details of their expenditure transactions every month. This guidance explains how to add these details to the data.gov.uk directory.</p>
 <h3 id="about-spend-data">About spend data</h3>
-<p>Central government must publish spend data one month in arrears. HM Treasury provides <a href="https://www.gov.uk/government/publications/guidance-for-publishing-spend-over-25000">advice on publishing spend over £25,000</a>, including templates and published examples.</p>
+<p>Central government must publish spend data every month in arrears. HM Treasury provides <a href="https://www.gov.uk/government/publications/guidance-for-publishing-spend-over-25000">advice on publishing spend over £25,000</a>, including templates and published examples.</p>
 <p>Local government must publish information every month or as soon as it becomes available. The <a href="https://www.gov.uk/government/publications/local-government-transparency-code-2015">local government transparency code</a> explains what local authorities should publish and when.</p>
 <h3 id="add-new-spend-data">Add new spend data</h3>
 <p>To add a new dataset, sign into the <a href="https://ckan.publishing.service.gov.uk/">Data Publisher</a>.</p>

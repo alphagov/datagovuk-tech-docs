@@ -1,12 +1,13 @@
 <h1 id="harvest-or-add-data">Harvest or add data</h1>
-<p>You can publish datasets to data.gov.uk by:</p>
+<p>You can publish datasets to the data.gov.uk directory by:</p>
 
 <ul>
 <li>using software to <a href="harvest_data/#harvest-data">harvest datasets</a></li>
 <li><a href="add_data/#add-data-manually">adding datasets manually</a></li>
 </ul>
-<p>Harvesting means using software, known as a ‘harvester’, to collect datasets from your website and publish them on data.gov.uk. Using the harvester lets you publish more than one dataset at once. You can also schedule harvests.</p>
+<p>Harvesting means using software, known as a ‘harvester’, to collect datasets from your website and publish them on the data.gov.uk directory. Using the harvester lets you publish more than one dataset at once. You can also schedule harvests.</p>
 
 <blockquote>
 <p>You must harvest <a href="inspire/#inspire">Location/INSPIRE data</a>.</p>
 </blockquote>
+<p>If you’d like to showcase your data by making it part of the new <a href="https://data.gov.uk">curated data collections</a>, you can express your interest through our <a href="https://forms.office.com/e/9V26PNFQaR">feedback form</a>.</p>
