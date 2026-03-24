@@ -1,6 +1,6 @@
 # Get and manage accounts
 
-There are two levels of access on data.gov.uk: editor and administrator (admin).
+There are 2 levels of access on the data.gov.uk directory: editor and administrator (admin).
 
 Editors are able to publish and manage datasets associated with their organisation (for example, a local authority or central government department). Editors and admins can be in multiple organisations.
 
@@ -14,11 +14,11 @@ Admins have the same abilities as editors but can also:
 
 ### Get invited by an admin
 
-To get an account, you should ask an existing admin to invite you. This is the fastest and most reliable way to gain access. The admin can follow these [instructions for adding/removing accounts](#add-or-remove-editors-and-admins).
+To get an account, you should ask an existing admin for your organisation to invite you. This is the fastest and most reliable way to gain access. The admin can follow the [instructions for adding/removing accounts](#add-or-remove-editors-and-admins).
 
 ### Register for an account
 
-If there are no admins, or you do not know who the admins for your organisation are, you can [register for an account](https://data.gov.uk/support). This process is slower as it requires a GOV.UK developer to manually process your request.
+If there are no admins, or you do not know who the admins for your organisation are, you can [use the support form](https://www.gov.uk/contact/govuk) and mention that it’s about data.gov.uk to register for an account. This process is slower as it requires a developer to manually process your request.
 
 When completing the form, state whether you need editor or admin permissions.
 
@@ -41,7 +41,7 @@ To remove a user, follow steps 1 and 2. Then select the button with the cross ne
 
 ## Create or edit an organisation
 
-To create a new organisation, [contact the data.gov.uk team](https://data.gov.uk/support).  
+To create a new organisation, [use the support form](https://www.gov.uk/contact/govuk) and mention that it’s about data.gov.uk.  
 
 Only admins can edit information about an existing organisation.
 

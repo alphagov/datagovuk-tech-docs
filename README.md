@@ -13,6 +13,20 @@ In the application folder type the following to install the required gems:
 bundle install
 ```
 
+### Running locally with Docker
+
+Before starting please ensure that you have Docker running on your machine.
+
+Build the docker image with 
+
+```docker build -t docs .```
+
+Run the middleman server with 
+
+```docker run --rm -p 4567:4567 --name docs docs```
+
+Go to the website on your browser by visiting http://localhost:4567.
+
 ## Making changes
 
 To make changes edit the source files in the `source` folder.
