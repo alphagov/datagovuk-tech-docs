@@ -18,4 +18,4 @@ However, you may want to remove datasets that are:
 * duplicates - if there are 2 datasets covering the same data
 * test datasets - if you’ve accidentally published some trial data
 
-Only the National Data Library team can delete a dataset. If you want to delete a dataset, [use the support form](https://www.gov.uk/contact/govuk) and mention that it’s about the National Data Library or data.gov.uk to send us a request.
+Only the National Data Library team can delete a dataset. If you want to delete a dataset, [request this via the support form](https://www.data.gov.uk/support/).
