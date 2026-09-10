@@ -12,7 +12,7 @@
 <h3 id="get-invited-by-an-admin">Get invited by an admin</h3>
 <p>To get an account, you should ask an existing admin for your organisation to invite you. This is the fastest and most reliable way to gain access. The admin can follow the <a href="#add-or-remove-editors-and-admins">instructions for adding/removing accounts</a>.</p>
 <h3 id="register-for-an-account">Register for an account</h3>
-<p>If there are no admins, or you do not know who the admins for your organisation are, you can <a href="https://www.gov.uk/contact/govuk">use the support form</a> and mention that it’s about the National Data Library or data.gov.uk to register for an account. This process is slower as it requires a developer to manually process your request.</p>
+<p>If there are no admins, or you do not know who the admins for your organisation are, you can <a href="https://www.data.gov.uk/support/">contact us via the support form</a>. This process is slower as it requires a developer to manually process your request.</p>
 <p>When completing the form, state whether you need editor or admin permissions.</p>
 <h2 id="add-or-remove-editors-and-admins">Add or remove editors and admins</h2>
 <p>An organisation can have multiple editors and admins.</p>
@@ -29,7 +29,7 @@
 <p>The recipient will receive email instructions on setting up an account.</p>
 <p>To remove a user, follow steps 1 and 2. Then select the button with the cross next to their name to remove their permissions.</p>
 <h2 id="create-or-edit-an-organisation">Create or edit an organisation</h2>
-<p>To create a new organisation, <a href="https://www.gov.uk/contact/govuk">use the support form</a> and mention that it’s about the National Data Library or data.gov.uk.</p>
+<p>To create a new organisation, <a href="https://www.data.gov.uk/support/">submit a request via the support form</a>.</p>
 <p>Only admins can edit information about an existing organisation.</p>
 <p>To edit organisation details you must have an admin account and sign into that account.</p>
 
