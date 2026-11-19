@@ -1,7 +1,7 @@
 <h1 id="publish-and-manage-datasets">Publish and manage datasets</h1>
 <p>Central government, local authorities and public bodies can publish on the National Data Library directory.</p>
-<p>The National Data Library does not host datasets. Instead, you must first publish the dataset (or supporting document) on your organisation’s website, on GOV.UK or on your service&rsquo;s own hosting.</p>
-<p>You can then add the dataset to the directory, which will display a description and a link to the dataset.</p>
+<p>If you have an existing account, you can log in to your account on <a href="https://ckan.publishing.service.gov.uk/user/login">the data publishing service</a>. When you log in, you will land on <a href="https://ckan.publishing.service.gov.uk/dashboard/datasets">your dashboard page</a> which shows the datasets published from your account and the organisations (publishers) your account is associated with and allowed to publish for.</p>
+<p>The National Data Library does not host datasets. Instead, you must first publish the dataset (or supporting document) on your organisation’s website, on GOV.UK or on your service&rsquo;s own hosting. You can then add the dataset to the directory, which will display a description and a link to the dataset so interested people can find it easily.</p>
 <p>Find out how to:</p>
 
 <ul>
